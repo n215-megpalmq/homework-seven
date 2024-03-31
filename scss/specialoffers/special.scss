@@ -1,0 +1,261 @@
+.navb{
+    .logo{
+        border-color: black;
+        h4{
+        color:black;
+        }
+    }
+    .links a{
+        color: black;
+    }
+}
+.navbar{
+    background-color: black;
+    height: 3px;
+}
+.special {
+    min-height: 800px;
+    width: $content-width;
+    margin: 0 auto;
+
+    .top-box2{
+        width: $content-width;
+        height: 300px;
+        margin-top: 55.5px;
+
+        .spoff{
+            font-family: sole;
+            font-size: 30px;
+            letter-spacing: 3px;
+            font-weight: normal;
+        }
+        .under-line{
+            width: 199px;
+            height:1px;
+            background-color: black;
+        }
+        .bar{
+            margin-top: 35.5px;
+            display: flex;
+        
+        .barimg{
+            background-image: url(../images/bar.png);
+            width: 199px;
+            height: 287px;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .text{
+            flex-direction: column;
+            height:287px;
+            width: 199px;
+            margin-left: 20px;
+
+        .biotext{
+            font-family: sole;
+            font-size: 30px;
+            letter-spacing: 2px;
+            font-weight: normal;
+            width: 500px;
+            display: flex;
+            .off{
+                font-size: 16px;
+                flex-direction: row;
+                margin-top: 15px;
+                margin-left: 10px;
+                color:#FF7D38;
+                font-weight: bold;
+            }
+        }
+        .under-line2{
+            width: 175px;
+            height:1px;
+            background-color: black;
+        }
+        .shortbar{
+            font-family: gilli;
+            font-size: 14px;
+            margin-top: 28px;
+            width:250px;
+            height: 112px;
+        }
+        .lmbutt{
+            width: 131px;
+            height: 40px;
+            background-color: #79ADDC;
+            border: none;
+            color: white;
+            margin: 0 auto;
+            justify-content: center;
+            margin-top: 50px;
+            border-radius: 20px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 15px;
+        }
+    }
+    }
+    .thai{
+        margin-top: 35.5px;
+        display: flex;
+    
+    .barimg{
+        background-image: url(../images/thai.png);
+        width: 199px;
+        height: 287px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .text{
+        flex-direction: column;
+        height:287px;
+        width: 199px;
+        margin-left: 20px;
+
+    .biotext{
+        font-family: sole;
+        font-size: 30px;
+        letter-spacing: 2px;
+        font-weight: normal;
+        width: 500px;
+        display: flex;
+        .off{
+            font-size: 16px;
+            flex-direction: row;
+            margin-top: 15px;
+            margin-left: 10px;
+            color:#FF7D38;
+            font-weight: bold;
+        }
+    }
+    .under-line2{
+        width: 175px;
+        height:1px;
+        background-color: black;
+    }
+    .shortbar{
+        font-family: gilli;
+        font-size: 14px;
+        margin-top: 28px;
+        width:250px;
+        height: 112px;
+    }
+    .lmbutt{
+        width: 131px;
+        height: 40px;
+        background-color: #79ADDC;
+        border: none;
+        color: white;
+        margin: 0 auto;
+        justify-content: center;
+        margin-top: 50px;
+        border-radius: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 15px;
+    }
+}
+}
+    }
+    
+}
+@media all and (max-width:1200px){
+    .navb{
+        .logo{
+            
+            h4{
+            
+            }
+        }
+        .links a{
+            
+        }
+    }
+    .navbar{
+        
+    }
+    .special {
+        margin-left: 30px;
+        .top-box2{
+            .spoff{
+            }
+            .under-line{
+                
+            }
+            .bar{
+               
+            
+            .barimg{
+               
+            }
+            .text{
+    
+            .biotext{  
+                .off{ 
+                }
+            }
+            .under-line2{
+            }
+            .shortbar{
+            }
+            .lmbutt{
+            }
+        }
+        }
+        .thai{
+        .barimg{
+        }
+        .text{
+        .biotext{
+            .off{
+            }
+        }
+        .under-line2{
+        }
+        .shortbar{
+        }
+        .lmbutt{
+        }
+    }
+    }
+        }
+        
+    } 
+     footer {
+            width: 100%;
+           
+                .end {
+                    position: relative;
+                    .logo {
+                    margin-left: 50px; 
+                    position: absolute;
+                    }
+        
+                .copywright {
+                right: 250px;
+                width:200px;
+                margin-bottom: 10px;
+                position: absolute;
+                        
+                    }
+        
+                    .icons {
+                        position: absolute;
+                        .fb {
+                         
+                        }
+                        .Tw{
+                             
+                        }
+        
+                        .In{
+                             
+                        }
+                        
+                    }
+                }
+            }
+        
+        }
+    
+

@@ -3272,5 +3272,184 @@ footer .end .bottom .icons .Tw {
     position: absolute;
   }
 }
+.navb .logo {
+  border-color: black;
+}
+.navb .logo h4 {
+  color: black;
+}
+.navb .links a {
+  color: black;
+}
+
+.navbar {
+  background-color: black;
+  height: 3px;
+}
+
+.special {
+  min-height: 800px;
+  width: 980px;
+  margin: 0 auto;
+}
+.special .top-box2 {
+  width: 980px;
+  height: 300px;
+  margin-top: 55.5px;
+}
+.special .top-box2 .spoff {
+  font-family: sole;
+  font-size: 30px;
+  letter-spacing: 3px;
+  font-weight: normal;
+}
+.special .top-box2 .under-line {
+  width: 199px;
+  height: 1px;
+  background-color: black;
+}
+.special .top-box2 .bar {
+  margin-top: 35.5px;
+  display: flex;
+}
+.special .top-box2 .bar .barimg {
+  background-image: url(../images/bar.png);
+  width: 199px;
+  height: 287px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.special .top-box2 .bar .text {
+  flex-direction: column;
+  height: 287px;
+  width: 199px;
+  margin-left: 20px;
+}
+.special .top-box2 .bar .text .biotext {
+  font-family: sole;
+  font-size: 30px;
+  letter-spacing: 2px;
+  font-weight: normal;
+  width: 500px;
+  display: flex;
+}
+.special .top-box2 .bar .text .biotext .off {
+  font-size: 16px;
+  flex-direction: row;
+  margin-top: 15px;
+  margin-left: 10px;
+  color: #FF7D38;
+  font-weight: bold;
+}
+.special .top-box2 .bar .text .under-line2 {
+  width: 175px;
+  height: 1px;
+  background-color: black;
+}
+.special .top-box2 .bar .text .shortbar {
+  font-family: gilli;
+  font-size: 14px;
+  margin-top: 28px;
+  width: 250px;
+  height: 112px;
+}
+.special .top-box2 .bar .text .lmbutt {
+  width: 131px;
+  height: 40px;
+  background-color: #79ADDC;
+  border: none;
+  color: white;
+  margin: 0 auto;
+  justify-content: center;
+  margin-top: 50px;
+  border-radius: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+}
+.special .top-box2 .thai {
+  margin-top: 35.5px;
+  display: flex;
+}
+.special .top-box2 .thai .barimg {
+  background-image: url(../images/thai.png);
+  width: 199px;
+  height: 287px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.special .top-box2 .thai .text {
+  flex-direction: column;
+  height: 287px;
+  width: 199px;
+  margin-left: 20px;
+}
+.special .top-box2 .thai .text .biotext {
+  font-family: sole;
+  font-size: 30px;
+  letter-spacing: 2px;
+  font-weight: normal;
+  width: 500px;
+  display: flex;
+}
+.special .top-box2 .thai .text .biotext .off {
+  font-size: 16px;
+  flex-direction: row;
+  margin-top: 15px;
+  margin-left: 10px;
+  color: #FF7D38;
+  font-weight: bold;
+}
+.special .top-box2 .thai .text .under-line2 {
+  width: 175px;
+  height: 1px;
+  background-color: black;
+}
+.special .top-box2 .thai .text .shortbar {
+  font-family: gilli;
+  font-size: 14px;
+  margin-top: 28px;
+  width: 250px;
+  height: 112px;
+}
+.special .top-box2 .thai .text .lmbutt {
+  width: 131px;
+  height: 40px;
+  background-color: #79ADDC;
+  border: none;
+  color: white;
+  margin: 0 auto;
+  justify-content: center;
+  margin-top: 50px;
+  border-radius: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+}
+
+@media all and (max-width: 1200px) {
+  .special {
+    margin-left: 30px;
+  }
+  footer {
+    width: 100%;
+  }
+  footer .end {
+    position: relative;
+  }
+  footer .end .logo {
+    margin-left: 50px;
+    position: absolute;
+  }
+  footer .end .copywright {
+    right: 250px;
+    width: 200px;
+    margin-bottom: 10px;
+    position: absolute;
+  }
+  footer .end .icons {
+    position: absolute;
+  }
+}
 
 /*# sourceMappingURL=styles.css.map */
