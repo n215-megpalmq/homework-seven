@@ -3451,5 +3451,182 @@ footer .end .bottom .icons .Tw {
     position: absolute;
   }
 }
+.navb .logo {
+  border-color: black;
+}
+.navb .logo h4 {
+  color: black;
+}
+.navb .links a {
+  color: black;
+}
+
+.navbar {
+  background-color: black;
+  height: 3px;
+}
+
+.blog {
+  min-height: 1040px;
+  width: 980px;
+  margin: 0 auto;
+  position: relative;
+}
+.blog .top-box3 {
+  width: 980px;
+  height: 300px;
+  margin-top: 55.5px;
+}
+.blog .top-box3 .blogtitle {
+  font-family: sole;
+  font-size: 30px;
+  letter-spacing: 3px;
+  font-weight: normal;
+}
+.blog .top-box3 .under-line4 {
+  width: 106px;
+  height: 1px;
+  background-color: black;
+}
+.blog .top-box3 .june {
+  width: 100%;
+  height: 500px;
+  display: flex;
+}
+.blog .top-box3 .june .sq {
+  width: 60px;
+  height: 60px;
+  background-color: #79ADDC;
+  margin-top: 31.5px;
+  font-family: sole;
+  font-size: 22px;
+}
+.blog .top-box3 .june .sq .date {
+  font-weight: 900;
+  font-family: gilli;
+  margin-left: 20px;
+  color: white;
+  font-size: 20px;
+  margin-top: 9px;
+}
+.blog .top-box3 .june .sq .month {
+  margin-left: 20px;
+  color: white;
+  font-family: gilli;
+  font-size: 12px;
+}
+.blog .top-box3 .june .book {
+  width: 900px;
+  height: 259px;
+  background-image: url(../images/book.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 31.5px;
+  margin-left: 20px;
+}
+.blog .top-box3 .june .blog1 {
+  flex-direction: column;
+  position: absolute;
+  width: 380px;
+  height: 90px;
+  margin-left: 80px;
+  margin-top: 310px;
+}
+.blog .top-box3 .june .blog1 .up {
+  font-family: gilli;
+  font-weight: bold;
+}
+.blog .top-box3 .june .blog1 .down {
+  font-family: gilli;
+  font-weight: bold;
+  margin-top: 11px;
+  font-size: 14px;
+  color: #79ADDC;
+}
+.blog .top-box3 .july {
+  width: 100%;
+  height: 500px;
+  display: flex;
+}
+.blog .top-box3 .july .sq {
+  width: 60px;
+  height: 60px;
+  background-color: #79ADDC;
+  margin-top: 31.5px;
+  font-family: sole;
+  font-size: 22px;
+}
+.blog .top-box3 .july .sq .date {
+  font-weight: 900;
+  font-family: gilli;
+  margin-left: 20px;
+  color: white;
+  font-size: 20px;
+  margin-top: 9px;
+}
+.blog .top-box3 .july .sq .month {
+  margin-left: 20px;
+  color: white;
+  font-family: gilli;
+  font-size: 12px;
+}
+.blog .top-box3 .july .book {
+  width: 900px;
+  height: 259px;
+  background-image: url(../images/book.png);
+  margin-top: 31.5px;
+  margin-left: 20px;
+}
+.blog .top-box3 .july .blog1 {
+  flex-direction: column;
+  position: absolute;
+  width: 380px;
+  height: 90px;
+  margin-left: 80px;
+  margin-top: 310px;
+}
+.blog .top-box3 .july .blog1 .up2 {
+  font-family: gilli;
+  font-weight: bold;
+}
+.blog .top-box3 .july .blog1 .down2 {
+  font-family: gilli;
+  font-weight: bold;
+  margin-top: 11px;
+  font-size: 14px;
+  color: #79ADDC;
+}
+
+@media all and (max-width: 1200px) {
+  .blog {
+    width: 100%;
+  }
+  .blog .top-box3 {
+    margin-left: 30px;
+  }
+  .blog .top-box3 .june .book {
+    width: 100%;
+    position: relative;
+  }
+  .blog .top-box3 .july .sq .book {
+    width: 100%;
+    position: relative;
+  }
+}
+@media all and (max-width: 878px) {
+  .blog {
+    width: 100%;
+  }
+  .blog .top-box3 {
+    margin-left: 10px;
+  }
+  .blog .top-box3 .june .book {
+    width: 100%;
+  }
+  .blog .top-box3 .july .sq .book {
+    width: 100%;
+  }
+}
 
 /*# sourceMappingURL=styles.css.map */

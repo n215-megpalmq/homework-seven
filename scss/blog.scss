@@ -1,0 +1,301 @@
+.navb{
+    .logo{
+        border-color: black;
+        h4{
+        color:black;
+        }
+    }
+    .links a{
+        color: black;
+    }
+}
+.navbar{
+    background-color: black;
+    height: 3px;
+}
+.blog {
+    min-height: 1040px;
+    width: $content-width;
+    margin: 0 auto;
+    position: relative;
+    .top-box3{
+        width: $content-width;
+        height: 300px;
+        margin-top: 55.5px;
+
+        .blogtitle{
+            font-family: sole;
+            font-size: 30px;
+            letter-spacing: 3px;
+            font-weight: normal;
+        }
+        .under-line4{
+            width: 106px;
+            height:1px;
+            background-color: black;
+        }
+        .june{
+            width: 100%;
+            height: 500px;
+            display: flex;
+            
+            .sq{
+                width: 60px;
+                height: 60px;
+                background-color: #79ADDC;
+                margin-top:31.5px;
+                font-family: sole;
+                font-size: 22px;
+                
+                .date {
+                    font-weight: 900;
+                    font-family: gilli;
+                    margin-left: 20px;
+                    color: white;
+                    font-size: 20px;
+                    margin-top: 9px;
+                }
+                .month{
+                    margin-left: 20px;
+                    color: white;
+                    font-family: gilli;
+                    font-size: 12px;
+                    
+                }
+            }
+            .book{
+                width:900px;
+                height: 259px;
+                background-image: url(../images/book.png);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                margin-top: 31.5px;
+                margin-left: 20px;
+                
+            }
+            .blog1{
+                flex-direction: column;
+                position: absolute;
+                width: 380px;
+                height: 90px;
+                margin-left: 80px;
+                margin-top: 310px;
+                .up{
+                    font-family: gilli;
+                    font-weight: bold;
+                }
+                .down{
+                    font-family: gilli;
+                    font-weight: bold;
+                    margin-top: 11px;
+                    font-size: 14px;
+                    color: #79ADDC;
+                }
+            }
+            }
+        .july{
+            width: 100%;
+            height: 500px;
+            display: flex;
+
+            
+            .sq{
+                width: 60px;
+                height: 60px;
+                background-color: #79ADDC;
+                margin-top:31.5px;
+                font-family: sole;
+                font-size: 22px;
+                    
+                .date {
+                    font-weight: 900;
+                    font-family: gilli;
+                    margin-left: 20px;
+                    color: white;
+                    font-size: 20px;
+                    margin-top: 9px;
+                    }
+                    .month{
+                    margin-left: 20px;
+                    color: white;
+                    font-family: gilli;
+                    font-size: 12px;
+                        
+                    }
+                }
+                .book{
+                    width:900px;
+                    height: 259px;
+                    background-image: url(../images/book.png);
+                    margin-top: 31.5px;
+                    margin-left: 20px;
+                    
+                }
+                .blog1{
+                    flex-direction: column;
+                    position: absolute;
+                    width: 380px;
+                    height: 90px;
+                    margin-left: 80px;
+                    margin-top: 310px;
+
+                    .up2{
+                        font-family: gilli;
+                        font-weight: bold;
+                    }
+                    .down2{
+                        font-family: gilli;
+                        font-weight: bold;
+                        margin-top: 11px;
+                        font-size: 14px;
+                        color: #79ADDC;
+                        
+
+                    }
+                }
+                }
+        }
+        }
+@media all and (max-width:1200px){
+    .navb{
+        .logo{
+
+            h4{
+
+            }
+        }
+        .links a{
+
+        }
+    }
+    .navbar{
+
+    }
+    .blog {
+    width: 100%;
+        .top-box3{
+            margin-left: 30px;
+            .blogtitle{
+            }
+            .under-line4{
+            }
+            .june{
+                
+                .sq{
+                    .date {
+                    }
+                    .month{
+   
+                    }
+                }
+                .book{
+                width: 100%;
+                position: relative;
+                }
+                .blog1{
+                    .up{
+                    }
+                    .down{
+                    }
+                }
+                }
+            .july{
+                
+                .sq{
+
+                        
+                    .date {
+
+                        }
+                        .month{
+
+                    }
+                    .book{
+                    width: 100%;
+                    position: relative;
+                    }
+                    .blog1{
+
+    
+            .up2{
+                        }
+            .down2{
+            
+                        }
+                    }
+                    }
+            }
+            }
+        }
+    }
+@media all and (max-width:878px){
+        .navb{
+            .logo{
+    
+                h4{
+    
+                }
+            }
+            .links a{
+    
+            }
+        }
+        .navbar{
+    
+        }
+        .blog {
+        width: 100%;
+            .top-box3{
+                margin-left: 10px;
+                .blogtitle{
+                }
+                .under-line4{
+                }
+                .june{
+                    
+                    .sq{
+                        .date {
+                        }
+                        .month{
+       
+                        }
+                    }
+                    .book{
+                    width: 100%;
+                    }
+                    .blog1{
+                        .up{
+                        }
+                        .down{
+                        }
+                    }
+                    }
+                .july{
+                    
+                    .sq{
+    
+                            
+                        .date {
+    
+                            }
+                            .month{
+    
+                        }
+                        .book{
+                        width: 100%;
+                        }
+                        .blog1{
+    
+        
+                .up2{
+                            }
+                .down2{
+                
+                            }
+                        }
+                        }
+                }
+                }
+            }
+        }
