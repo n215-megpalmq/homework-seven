@@ -1,0 +1,445 @@
+
+.navb{
+    .logo{
+        border-color: black;
+        h4{
+        color:black;
+        }
+    }
+    .links a{
+        color: black;
+    }
+}
+.navbar{
+    background-color: black;
+    height: 3px;
+}
+.about {
+    min-height: 200px;
+    width: $content-width;
+    margin: 0 auto;
+    
+    
+.top-box{
+    margin-top: 41px;
+    flex-direction: column;
+
+.title1{
+    font-family: sole;
+    font-size: 60px;
+    letter-spacing: 3px;
+    font-weight: 500;
+    }
+
+    .line{
+        width:171px;
+        height: 1px;
+        background-color: black;
+    }
+.text1{
+    font-family: gilli;
+    font-weight: bold;
+    margin-top: 38px;
+}
+}
+.bottom-box{
+    margin-top:95px;
+    .title2{
+        font-family: sole;
+        font-size: 50px;
+        letter-spacing: 3px;
+        font-weight: 5px;
+    }
+    .line2{
+        width:300px;
+        height: 1px;
+        background-color: black;
+    }
+}
+.clients{
+    width: 100%;
+    height: 500px;
+    .miranda{
+        width: 722px;
+        height:150px;
+        margin-top: 36.5px;
+        display: flex;
+        .image1{
+            background-image: url(../images/woman.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 260px;
+            height:150px;
+            margin-right: 21px;
+        }
+
+        .quote1{
+            width:385px;
+            height: 102px;
+            font-family: gillI;
+            font-weight: bold;
+            font-style: italic;
+        
+        .MB{
+            margin-left: 265px;
+            width: 176px;
+            height: 27px;
+            font-family: sole;
+            font-size: 16px;
+            font-style: normal;
+            letter-spacing: 3px;
+            color: $site-blue;
+        }
+    }
+    }
+    .john{
+        width: 722px;
+        height:150px;
+        margin-top: 37px;
+        display: flex;
+
+        .image2{
+            background-image:url(../images/man.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 260px;
+            height:150px;
+            margin-right: 21px;
+        }
+        .quote2{
+            width:385px;
+            height: 102px;
+            font-family: gillI;
+            font-weight: bold;
+            font-style: italic;
+
+            .JW{
+                margin-left: 265px;
+                width: 176px;
+                height: 27px;
+                font-family: sole;
+                font-size: 16px;
+                font-style: normal;
+                letter-spacing: 3px;
+                color: $site-blue;
+            }
+        }
+    }
+}
+
+
+}
+@media all and (max-width:1200px){
+        .navb{
+            .logo{
+                margin-left:30px;
+                h4{
+                
+                }
+            }
+            .links a{
+                
+            }
+        }
+        .navbar{
+            width: 100%;
+        }
+        .about {
+            margin-left:50px;
+            
+        .top-box{
+           width: 100%;
+        
+        .title1{
+           
+            }
+        
+            .line{
+                
+            }
+        .text1{
+            width: 90%;
+        }
+        }
+        .bottom-box{
+            width: 100%;
+            .title2{
+                
+            }
+            .line2{
+               
+            }
+        }
+        .clients{
+            
+        
+            .miranda{
+                
+                }
+                .quote1{
+                    
+                
+                .MB{
+                    
+                }
+            }
+            }
+            .john{
+                
+        
+                .image2{
+                    
+                }
+                .quote2{
+                    
+        
+                    .JW{
+                        
+                    }
+                }
+            }
+        }
+        
+        
+        }
+@media all and (max-width:950px){
+    .navb{
+        .logo{
+            margin-left:30px;
+            h4{
+            
+            }
+        }
+        .links a{
+            
+        }
+    }
+    .navbar{
+        width: 100%;
+    }
+    .about {
+
+        margin-left:50px;
+        
+    .top-box{
+       width: 100%;
+    
+    .title1{
+       
+        }
+    
+        .line{
+            
+        }
+    .text1{
+        width: 70%;
+    }
+    }
+    .bottom-box{
+        width: 100%;
+        .title2{
+            
+        }
+        .line2{
+           
+        }
+    }
+    .clients{
+        
+    
+        .miranda{
+            
+            }
+            .quote1{
+                
+            
+            .MB{
+                
+            }
+        }
+        }
+        .john{
+            
+    
+            .image2{
+                
+            }
+            .quote2{
+                
+    
+                .JW{
+                    
+                }
+            }
+        }
+    }
+    
+    
+    }
+
+@media all and (max-width:815px){
+    .navb{
+        .logo{
+            margin-left:30px;
+            h4{
+            
+            }
+        }
+        .links a{
+            
+        }
+    }
+    .navbar{
+        width: 100%;
+    }
+    .about {
+        margin-left:50px;
+        
+    .top-box{
+       width: 100%;
+    
+    .title1{
+       
+        }
+    
+        .line{
+            
+        }
+    .text1{
+        p{
+            width: 60%;
+        }
+    }
+    }
+    .bottom-box{
+        width: 100%;
+        .title2{
+            
+        }
+        .line2{
+           
+        }
+    }
+    .clients{
+        
+    
+        .miranda{
+            
+            }
+            .repo-flex{
+                flex-direction: column;
+            
+            .quote1{
+                
+            
+            .MB{
+                
+            }
+        }
+        }
+        }
+        .john{
+            
+    
+            .image2{
+                
+            }
+            .quote2{
+                
+    
+                .JW{
+                    
+                }
+            }
+        }
+    }
+    
+    
+    }
+@media all and (max-width:730px){
+        .navb{
+            .logo{
+                margin-left:30px;
+                h4{
+                
+                }
+            }
+            .links a{
+                
+            }
+        }
+        .navbar{
+            width: 100%;
+        }
+        .about {
+            margin-left:50px;
+            min-height: 1200px;
+        .top-box{
+           width: 100%;
+        
+        .title1{
+           
+            }
+        
+            .line{
+                
+            }
+        .text1{
+            p{
+                width: 60%;
+            }
+        }
+        }
+        .bottom-box{
+            width: 100%;
+            .title2{
+                
+            }
+            .line2{
+               
+            }
+        }
+        .clients{
+            
+        
+            .miranda{
+                flex-direction: column;
+                width: 100%;
+                .image1{
+                   position:absolute;
+                }
+                
+                }
+                .repo-flex{
+                    flex-direction: column;
+                
+                .quote1{
+                    margin-top:170px;
+                .MB{
+                    
+                }
+            }
+            }
+            }
+            .john{
+            
+            flex-direction: column;
+                .image2{
+                    position: absolute;
+                    margin-top: 150px;
+                }
+                .quote2{
+                    margin-top: 320px;
+                    padding-bottom: 200px;
+        
+                    .JW{
+                        
+                    }
+                }
+            }
+        }
+        
+        
+        }   

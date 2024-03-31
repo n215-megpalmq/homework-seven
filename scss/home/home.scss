@@ -1,0 +1,691 @@
+@font-face {
+    font-family: prox;
+    src: url(../fonts/Mark\Simonson\\Proxima\Nova\Condensed\Light\TheFontsMaster.com.otf);
+  }
+
+  @font-face {
+    font-family: gillI;
+    src: url(../fonts/Gill-Sans-Font-Family/Gill\Sans\Italic.otf);
+  }
+  @font-face {
+    font-family: gilli;
+    src: url(../fonts/Gill-Sans-Font-Family/Gill\Sans\Light.otf);
+  }
+
+@font-face {
+    font-family: sole;
+    src: url(../fonts/SoleSans-ThinExtraCondensed.ttf);
+}
+.home{
+    margin-top: -65;
+    
+    .hero {
+        height: 500px;
+        background-color: blueviolet;
+        background-image: url(../images/Group49.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;   
+        .flex{
+            display: flex;
+            text-align: center;
+            
+        .title {
+           margin: 0 auto;
+            justify-content: center;
+            align-items: center;
+            h1{
+            font-family: sole;
+            color: white;
+            font-weight: 100;
+            margin-top: 69.5px;
+            font-size: 60px;
+            }
+            .lorem {
+                width: 416px;
+                height: 46px;
+                font-family: gillI;
+                font-size: 20px;
+                color: white;
+                margin-top: 29px;
+            }
+        }
+        
+    }
+
+    .RM {
+        width: 121px;
+        height: 40px;
+        background-color: #79ADDC;
+        border: none;
+        align-items: center;
+        display: inline-block;
+        box-shadow: none;
+        color: white;
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+        margin-top: 50px;
+    }
+}
+
+    .specials {
+        width: $home-content-width;
+        margin: -40px auto 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+            
+
+        .box1 {
+            height: 304px;
+            width: 236px;
+            background-image: url(../images/Group50.png);
+            
+            .flex{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+
+            .is {
+                font-size: 60px;
+                font-family: sole;
+                justify-content: center;
+                align-items: center;
+                margin-top: 37px;
+                color: white;
+            a {
+                text-decoration: none;
+            }
+            
+            .from {
+               color: white;
+               height: 40px;
+               width: 152px;
+               font-size: 30px;
+            }
+
+            .LM {
+                width: 121px;
+                height: 40px;
+                background-color: #79ADDC;
+                border: none;
+                align-items: center;
+                display: inline-block;
+                box-shadow: none;
+                color: white;
+                display: flex;
+                margin: 0 auto;
+                justify-content: center;
+                margin-top: 50px;
+                border-radius: 20px;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size: 15px;
+            }
+        }
+        }
+    }
+    .box2 {
+        height: 304px;
+        width: 236px;
+        background-image: url(../images/Group36.png);
+        
+        .flex{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+
+        .is {
+            font-size: 60px;
+            font-family: sole;
+            justify-content: center;
+            align-items: center;
+            margin-top: 37px;
+            color: white;
+            a {
+                text-decoration: none;
+            }
+        
+        .from {
+           color: white;
+           height: 40px;
+           width: 152px;
+           font-size: 30px;
+        }
+
+        .LM {
+            width: 121px;
+            height: 40px;
+            background-color: #79ADDC;
+            border: none;
+            align-items: center;
+            display: inline-block;
+            box-shadow: none;
+            color: white;
+            display: flex;
+            margin: 0 auto;
+            justify-content: center;
+            margin-top: 50px;
+            border-radius: 20px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 15px;
+        }
+    }
+    }
+}
+.box3 {
+    height: 304px;
+    width: 236px;
+    background-image: url(../images/Group37.png);
+    
+    .flex{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+    .is {
+        font-size: 58px;
+        font-family: sole;
+        justify-content: center;
+        align-items: center;
+        margin-top: 37px;
+        color: white;
+        a {
+            text-decoration: none;
+        }
+    .from {
+       color: white;
+       height: 40px;
+       width: 152px;
+       font-size: 30px;
+    }
+
+    .LM {
+        width: 121px;
+        height: 40px;
+        background-color: #79ADDC;
+        border: none;
+        align-items: center;
+        display: inline-block;
+        box-shadow: none;
+        color: white;
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+        margin-top: 50px;
+        border-radius: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 15px;
+    }
+}
+}
+}
+    }
+
+    .booking{
+        width: $home-content-width;
+        margin: 0 auto;  
+        margin-top: 40px;
+        font-size: 60px;
+        font-family: sole;
+        font-weight: 4px;
+    }
+
+    .form {
+        width: $home-content-width;
+        margin: 0 auto;
+        min-height: 500px;
+        margin-top: 30px;
+        
+        
+        .flex-line{
+            display: flex;
+    
+        .cal {
+            position: relative;
+            width: 334px;
+            display: flex;
+
+        }
+        input {
+            height: 58px;
+            width: 200px;
+            border: 2px solid ;
+            border-color: $site-blue;
+            padding-left: 20px;
+            
+
+        }
+        .cal-2 {
+            width: 453px;
+            margin-left: 21px;
+            display: flex;
+            position: relative;
+        }
+        input {
+            height: 58px;
+            width: 453px;
+            border: 2px solid ;
+            border-color: $site-blue;
+            padding-left: 20px;
+            font-family: gilli;
+            font-size: 18px;
+            
+        }
+    
+        .cal-3{
+            position: relative;
+            width: 334px;
+            display: flex;
+            margin-top: 20px;
+        }
+        
+        .cal-4{
+            position: relative;
+            width: 453px;
+            display: flex;
+            margin-top: 20px;
+            margin-left: 21px;
+        }
+        
+    }
+    
+    .second{
+        display: flex;
+    
+    .check-in {
+        font-size: 18px;
+        position: relative;
+        margin-top: 39px;
+        width: 70px;
+        font-family: gilli;
+    }
+        .date-box{
+            position: relative;
+            width: 698px;
+            margin-top: 20px;
+            margin-left: 41px;
+            
+            .cal-box3 {
+                width: 30px;
+                height: 30px;
+                font-size: 24px;
+                position: absolute;
+                right: 20px;
+                bottom: 14px;
+                background-image: url(../images/AdobeStock_554606861.png);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            input{
+                height: 58px;
+                width: 698px;
+                border: 2px solid ;
+                border-color: $site-blue;
+                padding-left: 20px;
+                font-family: gilli;
+                font-size: 18px;
+            }
+        }
+        }
+    .third{
+        display: flex;
+
+        .check-out {
+            font-size: 18px;
+            position: relative;
+            margin-top: 39px;
+            width: 200px;
+            font-family: gilli;
+
+        
+    }
+        .date-box2{
+            position: relative;
+            width: 698px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            margin-right: 20px;
+
+            
+            .cal-box3 {
+                width: 30px;
+                height: 30px;
+                position: absolute;
+                right: 10px;
+                bottom: 14px;
+                background-image: url(../images/AdobeStock_554606861.png);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            input{
+                height: 58px;
+                width: 698px;
+                border: 2px solid ;
+                border-color: $site-blue;
+                padding-left: 20px;
+                font-family: gilli;
+                font-size: 18px;
+                margin-left: 10px;
+            }
+        }
+        
+    }
+    .ACR{
+        display: flex;
+        
+   
+
+        .adult{
+            font-family: gilli;
+            font-size: 18px;
+            position: relative;
+            margin-top: 20px;
+            margin-right: 81px;
+            
+        } 
+        select {
+            height: 58px;
+            width: 103px;
+            border: 2px solid ;
+            border-color: $site-blue;
+            padding: 20px;
+            
+        }
+        .child{
+            font-family: gilli;
+            font-size: 18px;
+            position: relative;
+            margin-top: 20px;
+            margin-left: 81px;
+            margin-right: 50px;
+          
+            
+        } 
+        
+        .rooms{
+            font-family:gilli;
+            font-size: 18px;
+            position: relative;
+            margin-top: 20px;
+            margin-left: 81px;
+            margin-right: 69px;
+          
+            
+        } 
+        select {
+            height: 58px;
+            width: 103px;
+            border: 2px solid ;
+            border-color: $site-blue;
+            padding: 20px;
+           
+        }
+        
+    }
+    #message-box{
+        width: 818px;
+        height: 192px;
+        border: 2px solid ;
+        border-color: $site-blue;
+        margin-top: 20px;
+    }
+    
+    textarea{
+        font-family: prox;
+        font-size: 18px;
+    }
+    button{
+        background-color: #79ADDC;
+        width: 813px;
+        height:60.59px;
+        border-radius: 30px;
+        color: white;
+        border: none;
+        font-family: gilli;
+        margin-top: 37px;
+        margin-bottom: 100px;
+    }
+}
+    }
+
+@media all and (max-width:920px){
+    .home{
+        width: 100%;
+        .hero {  
+            .flex{
+            .title {
+                }
+                .lorem {
+                }
+            }
+            
+        }
+        hr{
+            width: 100%;
+        }
+        .RM {
+        }
+
+    
+        .specials {
+            flex-direction: column;
+            .box{
+                margin-bottom: 30px;
+            }
+        
+        }
+        .booking{
+            margin: 25px;
+        }
+  
+        .form {
+            width: 100%;
+            margin: 12px;
+            .flex-line{
+                flex-direction: column;
+            .cal, .cal-3 {
+                width: 100%;
+                margin-left: 20px;
+                    input{
+                        width: 800PX;
+                    }
+                }
+            .cal-2, .cal-4{
+                width: 100%;
+                margin-top: 20px;
+                    
+                    input{
+                        width: 800px
+                    }
+                 }
+            
+        }
+        
+        .second{
+        .check-in {
+        }
+            .date-box{               
+                .cal-box3 {
+                }
+            }
+            input{
+            }
+            }
+        .third{
+            width: 95%;
+            .check-out {
+        }
+            .date-box2{ 
+                .cal-box3 {   
+                }
+            }
+            .input2{
+            }
+            
+        }
+        .ACR{
+            .adult{
+  
+            } 
+            select {    
+            }
+            .child{   
+            } 
+            
+            .rooms{  
+            } 
+            select {   
+            }
+            
+        }
+        
+        textarea{
+            margin: 15px;
+            max-width: 95%;
+            
+            #message-box{
+            width: 120px;
+            }
+        }
+       
+        button{
+            width: 95%;
+        }
+    }
+        }
+
+}
+
+@media all and (max-width:720px){
+    .home{
+        width: 100%;
+        .hero {  
+            .flex{
+            .title {
+                }
+                .lorem {
+                }
+            }
+            
+        }
+        hr{
+            width: 100%;
+        }
+        .RM {
+        }
+
+    
+        .specials {
+            flex-direction: column;
+            position: relative;
+            right:120px;
+            .box{
+                margin-bottom: 30px;
+                
+            }
+        
+        }
+        .booking{
+        }
+    
+        .form {
+            width: 100%;
+            margin: 12px;
+            .flex-line{
+                flex-direction: column;
+            .cal, .cal-3 {
+                width: 100%;
+                margin-left: 20px;
+                    input{
+                        width: 500PX;
+                    }
+                }
+            .cal-2, .cal-4{
+                width: 100%;
+                margin-top: 20px;
+                    
+                    input{
+                        width: 500px
+                    }
+                 }
+            
+        }
+        .move{
+            width: 100%;
+        .second{
+            
+        .check-in {
+            width: 100%;
+            
+        }
+            .date-box{    
+                width: 100%; 
+                margin-right: 130px;          
+                .cal-box3 {
+                }
+            }
+            input{
+                width: 400px;
+            }
+            }
+        .third{
+           
+            .check-out {
+                width: 100%;
+        }
+            .date-box2{ 
+                margin-right: 130px;
+                width: 100%;
+                .cal-box3 {   
+                }
+            }
+            .input2{
+                width: 400px;
+            }
+            
+        }
+    }
+        .ACR{
+            flex-direction: column;
+            align-items: center;
+            .adult{
+                margin-left: 70px;
+            } 
+            select {    
+            }
+            .child{ 
+                margin-left: 40px;  
+            } 
+            
+            .rooms{  
+                margin: 0 auto;
+                margin-top: 20px;
+            } 
+            select {   
+            }
+            
+        }
+        
+        textarea{
+            margin: 15px;
+            max-width: 75%;
+            margin-left: 80px;
+            #message-box{
+            
+            }
+        }
+       
+        button{
+            width: 75%;
+            margin-left: 80px;
+        }
+    }
+        }
+
+}

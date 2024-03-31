@@ -1,0 +1,258 @@
+.vacay3 {
+    width: $content-width;
+    min-height: 1700px;
+    margin: 0 auto;
+
+    .is-hero1 {
+        width: 981px;
+        height: 413px;
+        background-color: palegreen;
+        margin-top: 48.5px;
+        display: flex;
+        background: linear-gradient(rgb(0,0,0,0.2), rgb(0,0,0,0.2)),url(../images/NZ1.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+
+        .is-title {
+            font-family: sole;
+            color: white;
+            font-weight: 100;
+            margin-top: 18px;
+            font-size: 60px;
+            letter-spacing: 5px;
+            margin-left: 10px;
+            width: 1007px;
+            height: 106px;
+        }
+
+        .is-sub-title {
+            font-family: sole;
+            width: 550px;
+            height: 40px;
+            color: white;
+            font-weight: 100;
+            margin-top: 18px;
+            font-size: 30px; 
+            margin-top: 378px;
+            
+        }
+    }
+    .imagesAUS{
+        display: flex;
+    .image1A{
+        width: 298px;
+        height: 347px;
+        background-color: orange;
+        margin-top: 40px;
+        background-image: url(../images/nz-tour-01.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .image2U{
+        width: 298px;
+        height: 347px;
+        background-color: orange;
+        margin-top: 40px;
+        background-image: url(../images/nz-tour-02.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-left: 42px;
+    }
+    .image3S{
+        width: 298px;
+        height: 347px;
+        background-color: orange;
+        margin-top: 40px;
+        background-image: url(../images/nz-tour-03.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-left: 42px;
+    }
+}
+.days {
+    .day1{
+        .head{
+            font-family: sole;
+            font-size: 60px;
+            margin-top: 19px;
+            .line{
+                width:171px;
+                height: 1px;
+                background-color: black;
+            }
+        }
+        .pg{
+            font-family: gilli;
+            margin-top: 36.5px;
+        }
+    }
+    .day2{
+        .head{
+            font-family: sole;
+            font-size: 60px;
+            margin-top: 70px;
+            .line{
+                width:171px;
+                height: 1px;
+                background-color: black;
+            }
+        }
+        .pg{
+            font-family: gilli;
+            margin-top: 36.5px;
+        }
+    }
+    .day3{
+        .head{
+            font-family: sole;
+            font-size: 60px;
+            margin-top: 70px;
+            .line{
+                width:171px;
+                height: 1px;
+                background-color: black;
+            }
+        }
+        .pg{
+            font-family: gilli;
+            margin-top: 36.5px;
+        }
+    }
+}
+
+.bookNow{
+    width: 121px;
+        height: 40px;
+        background-color: #79ADDC;
+        border: none;
+        align-items: center;
+        display: inline-block;
+        box-shadow: none;
+        color: white;
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+        margin-top: 50px;
+        border-radius: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 15px;
+}
+}
+
+@media all and (max-width:1030px){
+    .vacay3 {
+        width: 100%;
+
+        .is-hero1 {
+            width: 100%;
+            
+            .is-title {
+
+            }
+    
+            .is-sub-title {
+            margin-left:200px;
+            
+            margin-top: 300px;
+            width: 500px;
+            height: 100px;
+            }
+        }
+        .imagesAUS{
+            flex-direction: column;
+        .image1A{
+            margin: 0 auto;
+            margin-top:15px
+        }
+        .image2U{
+            margin: 0 auto;
+            margin-top:15px
+        }
+        .image3S{
+            margin: 0 auto;
+            margin-top:15px
+        }
+    }
+    .days {
+        margin:10px;
+        .day1{
+            .head{
+
+                .line{
+
+                }
+            }
+            .pg{
+                margin-left:10px;
+            }
+        }
+        .day2{
+            .head{
+                .line{
+                   
+                }
+            }
+            .pg{
+                margin-left:10px;
+            }
+        }
+        .day3{
+            .head{
+                
+                .line{
+                   
+                }
+            }
+            .pg{
+                margin-left:10px;
+            }
+        }
+    }
+    
+    .bookNow{
+        
+    }
+    }
+    .tours-foot-1 {
+        footer {
+            margin-top: 100px;
+                width: 100%;
+                .end {
+                    position: relative;
+                    .logo {
+                    margin-left: 50px; 
+                    position: absolute;
+                    }
+        
+                .copywright {
+                right: 250px;
+                width:200px;
+                margin-bottom: 10px;
+                position: absolute;
+                        
+                    }
+        
+                    .icons {
+                        position: absolute;
+                        .fb {
+                         
+                        }
+                        .Tw{
+                             
+                        }
+        
+                        .In{
+                             
+                        }
+                        
+                    }
+                }
+            }
+        
+        }
+}

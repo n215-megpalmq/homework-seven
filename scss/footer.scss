@@ -1,0 +1,212 @@
+footer{
+    width: 100%;
+    margin-top: auto;
+    .end{
+    background-color: #79ADDC;
+    height: 100px;
+    display: flex;
+    margin: 0 auto;
+ 
+    .bottom{
+        width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        height: 100px;
+
+    .logo{
+        width:90px;
+        height:42px;
+        border:2px solid white;
+        margin-top: 30px;
+        
+            h4{
+            margin-top: 23px;
+            font-family: gillL;
+            letter-spacing: 3px;
+            color: white;
+            }
+        }
+            .copywright{
+            color: white;
+            font-family: gilli;
+            font-size: 12px;
+            margin-top: 40px;
+            display: flex;
+            width: 250px;
+            position: absolute;
+            margin-left:500px;
+            }
+    .icons {
+        font-size: 20px;
+        display: flex;
+        margin-left: 1000px;
+        margin-bottom: 100px;
+        margin-top: 40px;
+        
+            .fb{
+                height: 22.46px;
+                width: 22.46px;
+                margin-left: 10px;
+                border: none;
+                color: white;
+            }
+            .In{
+                margin-left: 10px;
+                height: 22.46px;
+                width: 22.46px;
+                border: none;
+                color: white;
+                
+            }
+            .Tw{
+                margin-left: 10px;
+                height: 22.46px;
+                width: 22.46px;
+                border: none;
+                color: white;
+                
+                }
+            }
+        }
+    }   
+
+@media all and (max-width:1200px){
+    
+        footer {
+            width: 75%;
+            .end {
+                .bottom{
+                    width: 75%;
+                .logo {
+
+                }
+    
+                .copywright {
+                    width:75%;
+                    
+                }
+    
+                .icons {
+                    width: 75%;
+                    margin-left: 20px;
+                    .fb {
+                         
+                    }
+                    .Tw{
+                        
+                    }
+    
+                    .In{
+                         
+                    }
+                    
+                }
+            }
+        
+        }
+    }
+}
+
+}
+
+@media all and (max-width: 920px) {
+    footer {
+        width: 100%;
+
+        .end {
+            .bottom{
+
+            .logo {
+                margin-left: 20px; 
+            }
+
+            .copywright {
+                margin-left: 400px;
+                
+            }
+
+            .icons {
+                margin-left: 650px;
+                .fb {
+                     
+                }
+                .Tw{
+                    
+                }
+
+                .In{
+                     
+                }
+                
+            }
+        }
+    }
+    }
+}
+
+@media all and (max-width: 815px) {
+    footer {
+    width: 100%;
+        .end {
+            .logo {
+                
+            }
+
+            .copywright {
+
+                
+                
+            }
+
+            .icons {
+               right: 20px;
+                .fb {
+                
+                }
+                .Tw{
+                     
+                }
+
+                .In{
+                     
+                }
+                
+            }
+        }
+    }
+}
+
+@media all and (max-width: 720px) {
+    footer {
+    width: 100%;
+    
+        .end {
+            .logo {
+                margin-left: 50px; 
+            }
+
+            .copywright {
+                margin-right:50px;
+                width:200px;
+                margin-bottom: 10px;
+                
+            }
+
+            .icons {
+                
+                .fb {
+                 
+                }
+                .Tw{
+                     
+                }
+
+                .In{
+                     
+                }
+                
+            }
+        }
+    }
+
+}

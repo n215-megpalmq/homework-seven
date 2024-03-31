@@ -1,0 +1,3276 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+@font-face {
+  font-family: gillL;
+  src: url(../fonts/Gill-Sans-Font-Family/GillSansLight.otf);
+}
+@font-face {
+  font-family: prox;
+  src: url(../fonts/MarkSimonson\\ProximaNova\c ondensedLightTheFontsMaster.com.otf);
+}
+nav {
+  height: 65px;
+  width: 980px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  z-index: 99;
+}
+nav a {
+  text-decoration: none;
+  color: #fff;
+  justify-content: space-evenly;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 47px;
+  letter-spacing: 2px;
+}
+nav .logo {
+  width: 92px;
+  height: 42px;
+  border: 2px solid white;
+}
+nav .logo h4 {
+  margin-top: 23px;
+  font-family: gillL;
+  letter-spacing: 3px;
+  color: white;
+}
+nav .links {
+  min-width: 300px;
+  height: 42px;
+  align-items: center;
+  margin-top: 47px;
+  font-size: 15px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+nav .links .pipe {
+  color: #79ADDC;
+}
+
+hr {
+  color: #fff;
+  width: 980px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+@media all and (max-width: 920px) {
+  nav {
+    width: 100%;
+  }
+}
+@font-face {
+  font-family: prox;
+  src: url(../fonts/MarkSimonson\\ProximaNova\c ondensedLightTheFontsMaster.com.otf);
+}
+@font-face {
+  font-family: gillI;
+  src: url(../fonts/Gill-Sans-Font-Family/GillSansItalic.otf);
+}
+@font-face {
+  font-family: gilli;
+  src: url(../fonts/Gill-Sans-Font-Family/GillSansLight.otf);
+}
+@font-face {
+  font-family: sole;
+  src: url(../fonts/SoleSans-ThinExtraCondensed.ttf);
+}
+.home {
+  margin-top: -65;
+}
+.home .hero {
+  height: 500px;
+  background-color: blueviolet;
+  background-image: url(../images/Group49.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.home .hero .flex {
+  display: flex;
+  text-align: center;
+}
+.home .hero .flex .title {
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+.home .hero .flex .title h1 {
+  font-family: sole;
+  color: white;
+  font-weight: 100;
+  margin-top: 69.5px;
+  font-size: 60px;
+}
+.home .hero .flex .title .lorem {
+  width: 416px;
+  height: 46px;
+  font-family: gillI;
+  font-size: 20px;
+  color: white;
+  margin-top: 29px;
+}
+.home .hero .RM {
+  width: 121px;
+  height: 40px;
+  background-color: #79ADDC;
+  border: none;
+  align-items: center;
+  display: inline-block;
+  box-shadow: none;
+  color: white;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  margin-top: 50px;
+}
+.home .specials {
+  width: 818px;
+  margin: -40px auto 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.home .specials .box1 {
+  height: 304px;
+  width: 236px;
+  background-image: url(../images/Group50.png);
+}
+.home .specials .box1 .flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.home .specials .box1 .flex .is {
+  font-size: 60px;
+  font-family: sole;
+  justify-content: center;
+  align-items: center;
+  margin-top: 37px;
+  color: white;
+}
+.home .specials .box1 .flex .is a {
+  text-decoration: none;
+}
+.home .specials .box1 .flex .is .from {
+  color: white;
+  height: 40px;
+  width: 152px;
+  font-size: 30px;
+}
+.home .specials .box1 .flex .is .LM {
+  width: 121px;
+  height: 40px;
+  background-color: #79ADDC;
+  border: none;
+  align-items: center;
+  display: inline-block;
+  box-shadow: none;
+  color: white;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  margin-top: 50px;
+  border-radius: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+}
+.home .specials .box2 {
+  height: 304px;
+  width: 236px;
+  background-image: url(../images/Group36.png);
+}
+.home .specials .box2 .flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.home .specials .box2 .flex .is {
+  font-size: 60px;
+  font-family: sole;
+  justify-content: center;
+  align-items: center;
+  margin-top: 37px;
+  color: white;
+}
+.home .specials .box2 .flex .is a {
+  text-decoration: none;
+}
+.home .specials .box2 .flex .is .from {
+  color: white;
+  height: 40px;
+  width: 152px;
+  font-size: 30px;
+}
+.home .specials .box2 .flex .is .LM {
+  width: 121px;
+  height: 40px;
+  background-color: #79ADDC;
+  border: none;
+  align-items: center;
+  display: inline-block;
+  box-shadow: none;
+  color: white;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  margin-top: 50px;
+  border-radius: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+}
+.home .specials .box3 {
+  height: 304px;
+  width: 236px;
+  background-image: url(../images/Group37.png);
+}
+.home .specials .box3 .flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.home .specials .box3 .flex .is {
+  font-size: 58px;
+  font-family: sole;
+  justify-content: center;
+  align-items: center;
+  margin-top: 37px;
+  color: white;
+}
+.home .specials .box3 .flex .is a {
+  text-decoration: none;
+}
+.home .specials .box3 .flex .is .from {
+  color: white;
+  height: 40px;
+  width: 152px;
+  font-size: 30px;
+}
+.home .specials .box3 .flex .is .LM {
+  width: 121px;
+  height: 40px;
+  background-color: #79ADDC;
+  border: none;
+  align-items: center;
+  display: inline-block;
+  box-shadow: none;
+  color: white;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  margin-top: 50px;
+  border-radius: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+}
+.home .booking {
+  width: 818px;
+  margin: 0 auto;
+  margin-top: 40px;
+  font-size: 60px;
+  font-family: sole;
+  font-weight: 4px;
+}
+.home .form {
+  width: 818px;
+  margin: 0 auto;
+  min-height: 500px;
+  margin-top: 30px;
+}
+.home .form .flex-line {
+  display: flex;
+}
+.home .form .flex-line .cal {
+  position: relative;
+  width: 334px;
+  display: flex;
+}
+.home .form .flex-line input {
+  height: 58px;
+  width: 200px;
+  border: 2px solid;
+  border-color: #79ADDC;
+  padding-left: 20px;
+}
+.home .form .flex-line .cal-2 {
+  width: 453px;
+  margin-left: 21px;
+  display: flex;
+  position: relative;
+}
+.home .form .flex-line input {
+  height: 58px;
+  width: 453px;
+  border: 2px solid;
+  border-color: #79ADDC;
+  padding-left: 20px;
+  font-family: gilli;
+  font-size: 18px;
+}
+.home .form .flex-line .cal-3 {
+  position: relative;
+  width: 334px;
+  display: flex;
+  margin-top: 20px;
+}
+.home .form .flex-line .cal-4 {
+  position: relative;
+  width: 453px;
+  display: flex;
+  margin-top: 20px;
+  margin-left: 21px;
+}
+.home .form .second {
+  display: flex;
+}
+.home .form .second .check-in {
+  font-size: 18px;
+  position: relative;
+  margin-top: 39px;
+  width: 70px;
+  font-family: gilli;
+}
+.home .form .second .date-box {
+  position: relative;
+  width: 698px;
+  margin-top: 20px;
+  margin-left: 41px;
+}
+.home .form .second .date-box .cal-box3 {
+  width: 30px;
+  height: 30px;
+  font-size: 24px;
+  position: absolute;
+  right: 20px;
+  bottom: 14px;
+  background-image: url(../images/AdobeStock_554606861.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.home .form .second .date-box input {
+  height: 58px;
+  width: 698px;
+  border: 2px solid;
+  border-color: #79ADDC;
+  padding-left: 20px;
+  font-family: gilli;
+  font-size: 18px;
+}
+.home .form .third {
+  display: flex;
+}
+.home .form .third .check-out {
+  font-size: 18px;
+  position: relative;
+  margin-top: 39px;
+  width: 200px;
+  font-family: gilli;
+}
+.home .form .third .date-box2 {
+  position: relative;
+  width: 698px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+.home .form .third .date-box2 .cal-box3 {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  right: 10px;
+  bottom: 14px;
+  background-image: url(../images/AdobeStock_554606861.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.home .form .third .date-box2 input {
+  height: 58px;
+  width: 698px;
+  border: 2px solid;
+  border-color: #79ADDC;
+  padding-left: 20px;
+  font-family: gilli;
+  font-size: 18px;
+  margin-left: 10px;
+}
+.home .form .ACR {
+  display: flex;
+}
+.home .form .ACR .adult {
+  font-family: gilli;
+  font-size: 18px;
+  position: relative;
+  margin-top: 20px;
+  margin-right: 81px;
+}
+.home .form .ACR select {
+  height: 58px;
+  width: 103px;
+  border: 2px solid;
+  border-color: #79ADDC;
+  padding: 20px;
+}
+.home .form .ACR .child {
+  font-family: gilli;
+  font-size: 18px;
+  position: relative;
+  margin-top: 20px;
+  margin-left: 81px;
+  margin-right: 50px;
+}
+.home .form .ACR .rooms {
+  font-family: gilli;
+  font-size: 18px;
+  position: relative;
+  margin-top: 20px;
+  margin-left: 81px;
+  margin-right: 69px;
+}
+.home .form .ACR select {
+  height: 58px;
+  width: 103px;
+  border: 2px solid;
+  border-color: #79ADDC;
+  padding: 20px;
+}
+.home .form #message-box {
+  width: 818px;
+  height: 192px;
+  border: 2px solid;
+  border-color: #79ADDC;
+  margin-top: 20px;
+}
+.home .form textarea {
+  font-family: prox;
+  font-size: 18px;
+}
+.home .form button {
+  background-color: #79ADDC;
+  width: 813px;
+  height: 60.59px;
+  border-radius: 30px;
+  color: white;
+  border: none;
+  font-family: gilli;
+  margin-top: 37px;
+  margin-bottom: 100px;
+}
+
+@media all and (max-width: 920px) {
+  .home {
+    width: 100%;
+  }
+  .home hr {
+    width: 100%;
+  }
+  .home .specials {
+    flex-direction: column;
+  }
+  .home .specials .box {
+    margin-bottom: 30px;
+  }
+  .home .booking {
+    margin: 25px;
+  }
+  .home .form {
+    width: 100%;
+    margin: 12px;
+  }
+  .home .form .flex-line {
+    flex-direction: column;
+  }
+  .home .form .flex-line .cal, .home .form .flex-line .cal-3 {
+    width: 100%;
+    margin-left: 20px;
+  }
+  .home .form .flex-line .cal input, .home .form .flex-line .cal-3 input {
+    width: 800PX;
+  }
+  .home .form .flex-line .cal-2, .home .form .flex-line .cal-4 {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .home .form .flex-line .cal-2 input, .home .form .flex-line .cal-4 input {
+    width: 800px;
+  }
+  .home .form .third {
+    width: 95%;
+  }
+  .home .form textarea {
+    margin: 15px;
+    max-width: 95%;
+  }
+  .home .form textarea #message-box {
+    width: 120px;
+  }
+  .home .form button {
+    width: 95%;
+  }
+}
+@media all and (max-width: 720px) {
+  .home {
+    width: 100%;
+  }
+  .home hr {
+    width: 100%;
+  }
+  .home .specials {
+    flex-direction: column;
+    position: relative;
+    right: 120px;
+  }
+  .home .specials .box {
+    margin-bottom: 30px;
+  }
+  .home .form {
+    width: 100%;
+    margin: 12px;
+  }
+  .home .form .flex-line {
+    flex-direction: column;
+  }
+  .home .form .flex-line .cal, .home .form .flex-line .cal-3 {
+    width: 100%;
+    margin-left: 20px;
+  }
+  .home .form .flex-line .cal input, .home .form .flex-line .cal-3 input {
+    width: 500PX;
+  }
+  .home .form .flex-line .cal-2, .home .form .flex-line .cal-4 {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .home .form .flex-line .cal-2 input, .home .form .flex-line .cal-4 input {
+    width: 500px;
+  }
+  .home .form .move {
+    width: 100%;
+  }
+  .home .form .move .second .check-in {
+    width: 100%;
+  }
+  .home .form .move .second .date-box {
+    width: 100%;
+    margin-right: 130px;
+  }
+  .home .form .move .second input {
+    width: 400px;
+  }
+  .home .form .move .third .check-out {
+    width: 100%;
+  }
+  .home .form .move .third .date-box2 {
+    margin-right: 130px;
+    width: 100%;
+  }
+  .home .form .move .third .input2 {
+    width: 400px;
+  }
+  .home .form .ACR {
+    flex-direction: column;
+    align-items: center;
+  }
+  .home .form .ACR .adult {
+    margin-left: 70px;
+  }
+  .home .form .ACR .child {
+    margin-left: 40px;
+  }
+  .home .form .ACR .rooms {
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  .home .form textarea {
+    margin: 15px;
+    max-width: 75%;
+    margin-left: 80px;
+  }
+  .home .form button {
+    width: 75%;
+    margin-left: 80px;
+  }
+}
+footer {
+  width: 100%;
+  margin-top: auto;
+}
+footer .end {
+  background-color: #79ADDC;
+  height: 100px;
+  display: flex;
+  margin: 0 auto;
+}
+footer .end .bottom {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  height: 100px;
+}
+footer .end .bottom .logo {
+  width: 90px;
+  height: 42px;
+  border: 2px solid white;
+  margin-top: 30px;
+}
+footer .end .bottom .logo h4 {
+  margin-top: 23px;
+  font-family: gillL;
+  letter-spacing: 3px;
+  color: white;
+}
+footer .end .bottom .copywright {
+  color: white;
+  font-family: gilli;
+  font-size: 12px;
+  margin-top: 40px;
+  display: flex;
+  width: 250px;
+  position: absolute;
+  margin-left: 500px;
+}
+footer .end .bottom .icons {
+  font-size: 20px;
+  display: flex;
+  margin-left: 1000px;
+  margin-bottom: 100px;
+  margin-top: 40px;
+}
+footer .end .bottom .icons .fb {
+  height: 22.46px;
+  width: 22.46px;
+  margin-left: 10px;
+  border: none;
+  color: white;
+}
+footer .end .bottom .icons .In {
+  margin-left: 10px;
+  height: 22.46px;
+  width: 22.46px;
+  border: none;
+  color: white;
+}
+footer .end .bottom .icons .Tw {
+  margin-left: 10px;
+  height: 22.46px;
+  width: 22.46px;
+  border: none;
+  color: white;
+}
+@media all and (max-width: 1200px) {
+  footer footer {
+    width: 75%;
+  }
+  footer footer .end .bottom {
+    width: 75%;
+  }
+  footer footer .end .bottom .copywright {
+    width: 75%;
+  }
+  footer footer .end .bottom .icons {
+    width: 75%;
+    margin-left: 20px;
+  }
+}
+
+@media all and (max-width: 920px) {
+  footer {
+    width: 100%;
+  }
+  footer .end .bottom .logo {
+    margin-left: 20px;
+  }
+  footer .end .bottom .copywright {
+    margin-left: 400px;
+  }
+  footer .end .bottom .icons {
+    margin-left: 650px;
+  }
+}
+@media all and (max-width: 815px) {
+  footer {
+    width: 100%;
+  }
+  footer .end .icons {
+    right: 20px;
+  }
+}
+@media all and (max-width: 720px) {
+  footer {
+    width: 100%;
+  }
+  footer .end .logo {
+    margin-left: 50px;
+  }
+  footer .end .copywright {
+    margin-right: 50px;
+    width: 200px;
+    margin-bottom: 10px;
+  }
+}
+.navb .logo {
+  border-color: black;
+}
+.navb .logo h4 {
+  color: black;
+}
+.navb .links a {
+  color: black;
+}
+
+.navbar {
+  background-color: black;
+  height: 3px;
+}
+
+.about {
+  min-height: 200px;
+  width: 980px;
+  margin: 0 auto;
+}
+.about .top-box {
+  margin-top: 41px;
+  flex-direction: column;
+}
+.about .top-box .title1 {
+  font-family: sole;
+  font-size: 60px;
+  letter-spacing: 3px;
+  font-weight: 500;
+}
+.about .top-box .line {
+  width: 171px;
+  height: 1px;
+  background-color: black;
+}
+.about .top-box .text1 {
+  font-family: gilli;
+  font-weight: bold;
+  margin-top: 38px;
+}
+.about .bottom-box {
+  margin-top: 95px;
+}
+.about .bottom-box .title2 {
+  font-family: sole;
+  font-size: 50px;
+  letter-spacing: 3px;
+  font-weight: 5px;
+}
+.about .bottom-box .line2 {
+  width: 300px;
+  height: 1px;
+  background-color: black;
+}
+.about .clients {
+  width: 100%;
+  height: 500px;
+}
+.about .clients .miranda {
+  width: 722px;
+  height: 150px;
+  margin-top: 36.5px;
+  display: flex;
+}
+.about .clients .miranda .image1 {
+  background-image: url(../images/woman.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 260px;
+  height: 150px;
+  margin-right: 21px;
+}
+.about .clients .miranda .quote1 {
+  width: 385px;
+  height: 102px;
+  font-family: gillI;
+  font-weight: bold;
+  font-style: italic;
+}
+.about .clients .miranda .quote1 .MB {
+  margin-left: 265px;
+  width: 176px;
+  height: 27px;
+  font-family: sole;
+  font-size: 16px;
+  font-style: normal;
+  letter-spacing: 3px;
+  color: #79ADDC;
+}
+.about .clients .john {
+  width: 722px;
+  height: 150px;
+  margin-top: 37px;
+  display: flex;
+}
+.about .clients .john .image2 {
+  background-image: url(../images/man.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 260px;
+  height: 150px;
+  margin-right: 21px;
+}
+.about .clients .john .quote2 {
+  width: 385px;
+  height: 102px;
+  font-family: gillI;
+  font-weight: bold;
+  font-style: italic;
+}
+.about .clients .john .quote2 .JW {
+  margin-left: 265px;
+  width: 176px;
+  height: 27px;
+  font-family: sole;
+  font-size: 16px;
+  font-style: normal;
+  letter-spacing: 3px;
+  color: #79ADDC;
+}
+
+@media all and (max-width: 1200px) {
+  .navb .logo {
+    margin-left: 30px;
+  }
+  .navbar {
+    width: 100%;
+  }
+  .about {
+    margin-left: 50px;
+  }
+  .about .top-box {
+    width: 100%;
+  }
+  .about .top-box .text1 {
+    width: 90%;
+  }
+  .about .bottom-box {
+    width: 100%;
+  }
+}
+@media all and (max-width: 950px) {
+  .navb .logo {
+    margin-left: 30px;
+  }
+  .navbar {
+    width: 100%;
+  }
+  .about {
+    margin-left: 50px;
+  }
+  .about .top-box {
+    width: 100%;
+  }
+  .about .top-box .text1 {
+    width: 70%;
+  }
+  .about .bottom-box {
+    width: 100%;
+  }
+}
+@media all and (max-width: 815px) {
+  .navb .logo {
+    margin-left: 30px;
+  }
+  .navbar {
+    width: 100%;
+  }
+  .about {
+    margin-left: 50px;
+  }
+  .about .top-box {
+    width: 100%;
+  }
+  .about .top-box .text1 p {
+    width: 60%;
+  }
+  .about .bottom-box {
+    width: 100%;
+  }
+  .about .clients .repo-flex {
+    flex-direction: column;
+  }
+}
+@media all and (max-width: 730px) {
+  .navb .logo {
+    margin-left: 30px;
+  }
+  .navbar {
+    width: 100%;
+  }
+  .about {
+    margin-left: 50px;
+    min-height: 1200px;
+  }
+  .about .top-box {
+    width: 100%;
+  }
+  .about .top-box .text1 p {
+    width: 60%;
+  }
+  .about .bottom-box {
+    width: 100%;
+  }
+  .about .clients .miranda {
+    flex-direction: column;
+    width: 100%;
+  }
+  .about .clients .miranda .image1 {
+    position: absolute;
+  }
+  .about .clients .repo-flex {
+    flex-direction: column;
+  }
+  .about .clients .repo-flex .quote1 {
+    margin-top: 170px;
+  }
+  .about .john {
+    flex-direction: column;
+  }
+  .about .john .image2 {
+    position: absolute;
+    margin-top: 150px;
+  }
+  .about .john .quote2 {
+    margin-top: 320px;
+    padding-bottom: 200px;
+  }
+}
+.tours {
+  min-height: 1200px;
+  width: 980px;
+  margin: 0 auto;
+}
+.tours .hiro {
+  width: 981px;
+  height: 200px;
+  margin-top: 49.5px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/trees.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+}
+.tours .hiro .titleT {
+  font-family: sole;
+  color: white;
+  font-weight: 100;
+  margin-top: 69.5px;
+  font-size: 60px;
+  margin: 0 auto;
+  margin-top: 53px;
+  letter-spacing: 5px;
+}
+.tours .row1 {
+  width: 100%;
+  height: 300px;
+  margin-top: 48px;
+  display: flex;
+}
+.tours .row1 .trip1 {
+  height: 304px;
+  width: 236px;
+  background-image: url(../images/Group50.png);
+  margin-left: 81px;
+}
+.tours .row1 .trip1 .flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.tours .row1 .trip1 .flex .is {
+  font-size: 60px;
+  font-family: sole;
+  justify-content: center;
+  align-items: center;
+  margin-top: 37px;
+  color: white;
+}
+.tours .row1 .trip1 .flex .is a {
+  text-decoration: none;
+}
+.tours .row1 .trip1 .flex .is .from {
+  color: white;
+  height: 40px;
+  width: 152px;
+  font-size: 30px;
+}
+.tours .row1 .trip1 .flex .is .LM {
+  width: 121px;
+  height: 40px;
+  background-color: #79ADDC;
+  border: none;
+  align-items: center;
+  display: inline-block;
+  box-shadow: none;
+  color: white;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  margin-top: 50px;
+  border-radius: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+}
+.tours .row1 .trip2 {
+  height: 304px;
+  width: 236px;
+  background-image: url(../images/Group36.png);
+  margin-left: 55px;
+}
+.tours .row1 .trip2 .flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.tours .row1 .trip2 .flex .is {
+  font-size: 60px;
+  font-family: sole;
+  justify-content: center;
+  align-items: center;
+  margin-top: 37px;
+  color: white;
+}
+.tours .row1 .trip2 .flex .is a {
+  text-decoration: none;
+}
+.tours .row1 .trip2 .flex .is .from {
+  color: white;
+  height: 40px;
+  width: 152px;
+  font-size: 30px;
+}
+.tours .row1 .trip2 .flex .is .LM {
+  width: 121px;
+  height: 40px;
+  background-color: #79ADDC;
+  border: none;
+  align-items: center;
+  display: inline-block;
+  box-shadow: none;
+  color: white;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  margin-top: 50px;
+  border-radius: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+}
+.tours .row1 .trip3 {
+  height: 304px;
+  width: 236px;
+  background-image: url(../images/Group37.png);
+  margin-left: 55px;
+}
+.tours .row1 .trip3 .flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.tours .row1 .trip3 .flex .is {
+  font-size: 58px;
+  font-family: sole;
+  justify-content: center;
+  align-items: center;
+  margin-top: 37px;
+  color: white;
+}
+.tours .row1 .trip3 .flex .is a {
+  text-decoration: none;
+}
+.tours .row1 .trip3 .flex .is .from {
+  color: white;
+  height: 40px;
+  width: 152px;
+  font-size: 30px;
+}
+.tours .row1 .trip3 .flex .is .LM {
+  width: 121px;
+  height: 40px;
+  background-color: #79ADDC;
+  border: none;
+  align-items: center;
+  display: inline-block;
+  box-shadow: none;
+  color: white;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  margin-top: 50px;
+  border-radius: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+}
+.tours .row2 {
+  width: 100%;
+  height: 300px;
+  margin-top: 48px;
+  display: flex;
+}
+.tours .row2 .trip4 {
+  height: 304px;
+  width: 236px;
+  background-image: url(../images/NZ.png);
+  margin-left: 81px;
+}
+.tours .row2 .trip4 .flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.tours .row2 .trip4 .flex .is {
+  font-size: 60px;
+  font-family: sole;
+  justify-content: center;
+  align-items: center;
+  margin-top: 37px;
+  color: white;
+}
+.tours .row2 .trip4 .flex .is a {
+  text-decoration: none;
+}
+.tours .row2 .trip4 .flex .is .from {
+  color: white;
+  height: 40px;
+  width: 152px;
+  font-size: 30px;
+  margin: 0 auto;
+}
+.tours .row2 .trip4 .flex .is .LM {
+  width: 121px;
+  height: 40px;
+  background-color: #79ADDC;
+  border: none;
+  align-items: center;
+  display: inline-block;
+  box-shadow: none;
+  color: white;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  margin-top: 50px;
+  border-radius: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+}
+.tours .row2 .trip5 {
+  height: 304px;
+  width: 236px;
+  background-image: url(../images/France.png);
+  margin-left: 55px;
+}
+.tours .row2 .trip5 .flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.tours .row2 .trip5 .flex .is {
+  font-size: 60px;
+  font-family: sole;
+  justify-content: center;
+  align-items: center;
+  margin-top: 37px;
+  color: white;
+}
+.tours .row2 .trip5 .flex .is a {
+  text-decoration: none;
+}
+.tours .row2 .trip5 .flex .is .from {
+  color: white;
+  height: 40px;
+  width: 152px;
+  font-size: 30px;
+}
+.tours .row2 .trip5 .flex .is .LM {
+  width: 121px;
+  height: 40px;
+  background-color: #79ADDC;
+  border: none;
+  align-items: center;
+  display: inline-block;
+  box-shadow: none;
+  color: white;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  margin-top: 50px;
+  border-radius: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+}
+.tours .row2 .trip6 {
+  height: 304px;
+  width: 236px;
+  background-image: url(../images/Egypt.png);
+  margin-left: 55px;
+}
+.tours .row2 .trip6 .flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.tours .row2 .trip6 .flex .is {
+  font-size: 58px;
+  font-family: sole;
+  justify-content: center;
+  align-items: center;
+  margin-top: 37px;
+  color: white;
+}
+.tours .row2 .trip6 .flex .is a {
+  text-decoration: none;
+}
+.tours .row2 .trip6 .flex .is .from {
+  color: white;
+  height: 40px;
+  width: 152px;
+  font-size: 30px;
+}
+.tours .row2 .trip6 .flex .is .LM {
+  width: 121px;
+  height: 40px;
+  background-color: #79ADDC;
+  border: none;
+  align-items: center;
+  display: inline-block;
+  box-shadow: none;
+  color: white;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  margin-top: 50px;
+  border-radius: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+}
+.tours .row3 {
+  width: 100%;
+  height: 300px;
+  margin-top: 48px;
+  display: flex;
+  margin-bottom: 100px;
+}
+.tours .row3 .trip7 {
+  height: 304px;
+  width: 236px;
+  background-image: url(../images/Japan.png);
+  margin-left: 81px;
+}
+.tours .row3 .trip7 .flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.tours .row3 .trip7 .flex .is {
+  font-size: 60px;
+  font-family: sole;
+  justify-content: center;
+  align-items: center;
+  margin-top: 37px;
+  color: white;
+}
+.tours .row3 .trip7 .flex .is a {
+  text-decoration: none;
+}
+.tours .row3 .trip7 .flex .is .from {
+  color: white;
+  height: 40px;
+  width: 152px;
+  font-size: 30px;
+  margin: 0 auto;
+}
+.tours .row3 .trip7 .flex .is .LM {
+  width: 121px;
+  height: 40px;
+  background-color: #79ADDC;
+  border: none;
+  align-items: center;
+  display: inline-block;
+  box-shadow: none;
+  color: white;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  margin-top: 50px;
+  border-radius: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+}
+.tours .row3 .trip8 {
+  height: 304px;
+  width: 236px;
+  background-image: url(../images/Canada.png);
+  margin-left: 55px;
+}
+.tours .row3 .trip8 .flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.tours .row3 .trip8 .flex .is {
+  font-size: 60px;
+  font-family: sole;
+  justify-content: center;
+  align-items: center;
+  margin-top: 37px;
+  color: white;
+}
+.tours .row3 .trip8 .flex .is a {
+  text-decoration: none;
+}
+.tours .row3 .trip8 .flex .is .from {
+  color: white;
+  height: 40px;
+  width: 152px;
+  font-size: 30px;
+}
+.tours .row3 .trip8 .flex .is .LM {
+  width: 121px;
+  height: 40px;
+  background-color: #79ADDC;
+  border: none;
+  align-items: center;
+  display: inline-block;
+  box-shadow: none;
+  color: white;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  margin-top: 50px;
+  border-radius: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+}
+.tours .row3 .trip9 {
+  height: 304px;
+  width: 236px;
+  background-image: url(../images/UAE.png);
+  margin-left: 55px;
+}
+.tours .row3 .trip9 .flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.tours .row3 .trip9 .flex .is {
+  font-size: 58px;
+  font-family: sole;
+  justify-content: center;
+  align-items: center;
+  margin-top: 37px;
+  color: white;
+}
+.tours .row3 .trip9 .flex .is a {
+  text-decoration: none;
+}
+.tours .row3 .trip9 .flex .is .from {
+  color: white;
+  height: 40px;
+  width: 152px;
+  font-size: 30px;
+}
+.tours .row3 .trip9 .flex .is .LM {
+  width: 121px;
+  height: 40px;
+  background-color: #79ADDC;
+  border: none;
+  align-items: center;
+  display: inline-block;
+  box-shadow: none;
+  color: white;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  margin-top: 50px;
+  border-radius: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+}
+
+@media all and (max-width: 998px) {
+  .tours {
+    width: 100%;
+  }
+  .tours .hiro {
+    width: 100%;
+  }
+  .tours .row1 {
+    width: 100%;
+    flex-direction: column;
+  }
+  .tours .row1 .trip1 {
+    margin: 0 auto;
+  }
+  .tours .row1 .trip1 .flex {
+    height: 300px;
+  }
+  .tours .row1 .trip1 .flex .is a {
+    text-decoration: none;
+  }
+  .tours .row1 .trip2 {
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  .tours .row1 .trip2 .flex {
+    height: 300px;
+  }
+  .tours .row1 .trip3 {
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  .tours .row1 .trip3 .flex {
+    height: 300px;
+  }
+  .tours .row2 {
+    width: 100%;
+    flex-direction: column;
+    margin-top: 650px;
+  }
+  .tours .row2 .trip4 {
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  .tours .row2 .trip4 .flex {
+    height: 300px;
+  }
+  .tours .row2 .trip5 {
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  .tours .row2 .trip5 .flex {
+    height: 300px;
+  }
+  .tours .row2 .trip6 {
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  .tours .row2 .trip6 .flex {
+    height: 300px;
+  }
+  .tours .row3 {
+    width: 100%;
+    flex-direction: column;
+    margin-top: 670px;
+  }
+  .tours .row3 .trip7 {
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  .tours .row3 .trip7 .flex {
+    height: 300px;
+  }
+  .tours .row3 .trip8 {
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  .tours .row3 .trip8 .flex {
+    height: 300px;
+  }
+  .tours .row3 .trip9 {
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  .tours .row3 .trip9 .flex {
+    height: 300px;
+  }
+  .tours-foot footer {
+    margin-top: 700px;
+    width: 100%;
+  }
+  .tours-foot footer .end {
+    position: relative;
+  }
+  .tours-foot footer .end .logo {
+    margin-left: 50px;
+    position: absolute;
+  }
+  .tours-foot footer .end .copywright {
+    right: 250px;
+    width: 200px;
+    margin-bottom: 10px;
+    position: absolute;
+  }
+  .tours-foot footer .end .icons {
+    position: absolute;
+  }
+}
+.israel {
+  width: 980px;
+  min-height: 1700px;
+  margin: 0 auto;
+}
+.israel .is-hero {
+  width: 981px;
+  height: 413px;
+  background-color: palegreen;
+  margin-top: 48.5px;
+  display: flex;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/Israel.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.israel .is-hero .is-title {
+  font-family: sole;
+  color: white;
+  font-weight: 100;
+  margin-top: 18px;
+  font-size: 60px;
+  letter-spacing: 5px;
+  margin-left: 10px;
+  width: 687px;
+  height: 106px;
+}
+.israel .is-hero .is-sub-title {
+  font-family: sole;
+  width: 500px;
+  height: 40px;
+  color: white;
+  font-weight: 100;
+  margin-top: 18px;
+  font-size: 30px;
+  margin-left: 155px;
+  margin-top: 378px;
+}
+.israel .images {
+  display: flex;
+}
+.israel .images .image1 {
+  width: 298px;
+  height: 347px;
+  background-color: orange;
+  margin-top: 40px;
+  background-image: url(../images/beige.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.israel .images .image2 {
+  width: 298px;
+  height: 347px;
+  background-color: orange;
+  margin-top: 40px;
+  background-image: url(../images/israel-tour-02.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 42px;
+}
+.israel .images .image3 {
+  width: 298px;
+  height: 347px;
+  background-color: orange;
+  margin-top: 40px;
+  background-image: url(../images/israel-tour-03.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 42px;
+}
+.israel .days .day1 .head {
+  font-family: sole;
+  font-size: 60px;
+  margin-top: 19px;
+}
+.israel .days .day1 .head .line {
+  width: 171px;
+  height: 1px;
+  background-color: black;
+}
+.israel .days .day1 .pg {
+  font-family: gilli;
+  margin-top: 36.5px;
+}
+.israel .days .day2 .head {
+  font-family: sole;
+  font-size: 60px;
+  margin-top: 70px;
+}
+.israel .days .day2 .head .line {
+  width: 171px;
+  height: 1px;
+  background-color: black;
+}
+.israel .days .day2 .pg {
+  font-family: gilli;
+  margin-top: 36.5px;
+}
+.israel .days .day3 .head {
+  font-family: sole;
+  font-size: 60px;
+  margin-top: 70px;
+}
+.israel .days .day3 .head .line {
+  width: 171px;
+  height: 1px;
+  background-color: black;
+}
+.israel .days .day3 .pg {
+  font-family: gilli;
+  margin-top: 36.5px;
+}
+.israel .bookNow {
+  width: 121px;
+  height: 40px;
+  background-color: #79ADDC;
+  border: none;
+  align-items: center;
+  display: inline-block;
+  box-shadow: none;
+  color: white;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  margin-top: 50px;
+  border-radius: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+}
+
+@media all and (max-width: 1030px) {
+  .israel {
+    width: 100%;
+  }
+  .israel .is-hero {
+    width: 100%;
+  }
+  .israel .is-hero .is-sub-title {
+    margin-left: 200px;
+    margin-top: 300px;
+    width: 500px;
+    height: 100px;
+  }
+  .israel .images {
+    flex-direction: column;
+  }
+  .israel .images .image1 {
+    margin: 0 auto;
+    margin-top: 15px;
+  }
+  .israel .images .image2 {
+    margin: 0 auto;
+    margin-top: 15px;
+  }
+  .israel .images .image3 {
+    margin: 0 auto;
+    margin-top: 15px;
+  }
+  .israel .days {
+    margin: 10px;
+  }
+  .israel .days .day1 .pg {
+    margin-left: 10px;
+  }
+  .israel .days .day2 .pg {
+    margin-left: 10px;
+  }
+  .israel .days .day3 .pg {
+    margin-left: 10px;
+  }
+  .tours-foot-1 footer {
+    margin-top: 100px;
+    width: 100%;
+  }
+  .tours-foot-1 footer .end {
+    position: relative;
+  }
+  .tours-foot-1 footer .end .logo {
+    margin-left: 50px;
+    position: absolute;
+  }
+  .tours-foot-1 footer .end .copywright {
+    right: 250px;
+    width: 200px;
+    margin-bottom: 10px;
+    position: absolute;
+  }
+  .tours-foot-1 footer .end .icons {
+    position: absolute;
+  }
+}
+.vacay {
+  width: 980px;
+  min-height: 1700px;
+  margin: 0 auto;
+}
+.vacay .is-hero {
+  width: 981px;
+  height: 413px;
+  background-color: palegreen;
+  margin-top: 48.5px;
+  display: flex;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/USA.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.vacay .is-hero .is-title {
+  font-family: sole;
+  color: white;
+  font-weight: 100;
+  margin-top: 18px;
+  font-size: 60px;
+  letter-spacing: 5px;
+  margin-left: 10px;
+  width: 687px;
+  height: 106px;
+}
+.vacay .is-hero .is-sub-title {
+  font-family: sole;
+  width: 500px;
+  height: 40px;
+  color: white;
+  font-weight: 100;
+  margin-top: 18px;
+  font-size: 30px;
+  margin-left: 155px;
+  margin-top: 378px;
+}
+.vacay .images {
+  display: flex;
+}
+.vacay .images .image1 {
+  width: 298px;
+  height: 347px;
+  background-color: orange;
+  margin-top: 40px;
+  background-image: url(../images/usa-tour-01.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.vacay .images .image2 {
+  width: 298px;
+  height: 347px;
+  background-color: orange;
+  margin-top: 40px;
+  background-image: url(../images/usa-tour-02.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 42px;
+}
+.vacay .images .image3 {
+  width: 298px;
+  height: 347px;
+  background-color: orange;
+  margin-top: 40px;
+  background-image: url(../images/usa-tour-03.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 42px;
+}
+.vacay .days .day1 .head {
+  font-family: sole;
+  font-size: 60px;
+  margin-top: 19px;
+}
+.vacay .days .day1 .head .line {
+  width: 171px;
+  height: 1px;
+  background-color: black;
+}
+.vacay .days .day1 .pg {
+  font-family: gilli;
+  margin-top: 36.5px;
+}
+.vacay .days .day2 .head {
+  font-family: sole;
+  font-size: 60px;
+  margin-top: 70px;
+}
+.vacay .days .day2 .head .line {
+  width: 171px;
+  height: 1px;
+  background-color: black;
+}
+.vacay .days .day2 .pg {
+  font-family: gilli;
+  margin-top: 36.5px;
+}
+.vacay .days .day3 .head {
+  font-family: sole;
+  font-size: 60px;
+  margin-top: 70px;
+}
+.vacay .days .day3 .head .line {
+  width: 171px;
+  height: 1px;
+  background-color: black;
+}
+.vacay .days .day3 .pg {
+  font-family: gilli;
+  margin-top: 36.5px;
+}
+.vacay .bookNow {
+  width: 121px;
+  height: 40px;
+  background-color: #79ADDC;
+  border: none;
+  align-items: center;
+  display: inline-block;
+  box-shadow: none;
+  color: white;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  margin-top: 50px;
+  border-radius: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+}
+
+@media all and (max-width: 1030px) {
+  .vacay {
+    width: 100%;
+  }
+  .vacay .is-hero {
+    width: 100%;
+  }
+  .vacay .is-hero .is-sub-title {
+    margin-left: 200px;
+    margin-top: 300px;
+    width: 500px;
+    height: 100px;
+  }
+  .vacay .images {
+    flex-direction: column;
+  }
+  .vacay .images .image1 {
+    margin: 0 auto;
+    margin-top: 15px;
+  }
+  .vacay .images .image2 {
+    margin: 0 auto;
+    margin-top: 15px;
+  }
+  .vacay .images .image3 {
+    margin: 0 auto;
+    margin-top: 15px;
+  }
+  .vacay .days {
+    margin: 10px;
+  }
+  .vacay .days .day1 .pg {
+    margin-left: 10px;
+  }
+  .vacay .days .day2 .pg {
+    margin-left: 10px;
+  }
+  .vacay .days .day3 .pg {
+    margin-left: 10px;
+  }
+  .tours-foot-1 footer {
+    margin-top: 100px;
+    width: 100%;
+  }
+  .tours-foot-1 footer .end {
+    position: relative;
+  }
+  .tours-foot-1 footer .end .logo {
+    margin-left: 50px;
+    position: absolute;
+  }
+  .tours-foot-1 footer .end .copywright {
+    right: 250px;
+    width: 200px;
+    margin-bottom: 10px;
+    position: absolute;
+  }
+  .tours-foot-1 footer .end .icons {
+    position: absolute;
+  }
+}
+.vacay1 {
+  width: 980px;
+  min-height: 1700px;
+  margin: 0 auto;
+}
+.vacay1 .is-hero1 {
+  width: 981px;
+  height: 413px;
+  background-color: palegreen;
+  margin-top: 48.5px;
+  display: flex;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/aus.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+}
+.vacay1 .is-hero1 .is-title {
+  font-family: sole;
+  color: white;
+  font-weight: 100;
+  margin-top: 18px;
+  font-size: 60px;
+  letter-spacing: 5px;
+  margin-left: 10px;
+  width: 1007px;
+  height: 106px;
+}
+.vacay1 .is-hero1 .is-sub-title {
+  font-family: sole;
+  width: 550px;
+  height: 40px;
+  color: white;
+  font-weight: 100;
+  margin-top: 18px;
+  font-size: 30px;
+  margin-top: 378px;
+}
+.vacay1 .imagesAUS {
+  display: flex;
+}
+.vacay1 .imagesAUS .image1A {
+  width: 298px;
+  height: 347px;
+  background-color: orange;
+  margin-top: 40px;
+  background-image: url(../images/aus-tour-01.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.vacay1 .imagesAUS .image2U {
+  width: 298px;
+  height: 347px;
+  background-color: orange;
+  margin-top: 40px;
+  background-image: url(../images/aus2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 42px;
+}
+.vacay1 .imagesAUS .image3S {
+  width: 298px;
+  height: 347px;
+  background-color: orange;
+  margin-top: 40px;
+  background-image: url(../images/aus-tour-03.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 42px;
+}
+.vacay1 .days .day1 .head {
+  font-family: sole;
+  font-size: 60px;
+  margin-top: 19px;
+}
+.vacay1 .days .day1 .head .line {
+  width: 171px;
+  height: 1px;
+  background-color: black;
+}
+.vacay1 .days .day1 .pg {
+  font-family: gilli;
+  margin-top: 36.5px;
+}
+.vacay1 .days .day2 .head {
+  font-family: sole;
+  font-size: 60px;
+  margin-top: 70px;
+}
+.vacay1 .days .day2 .head .line {
+  width: 171px;
+  height: 1px;
+  background-color: black;
+}
+.vacay1 .days .day2 .pg {
+  font-family: gilli;
+  margin-top: 36.5px;
+}
+.vacay1 .days .day3 .head {
+  font-family: sole;
+  font-size: 60px;
+  margin-top: 70px;
+}
+.vacay1 .days .day3 .head .line {
+  width: 171px;
+  height: 1px;
+  background-color: black;
+}
+.vacay1 .days .day3 .pg {
+  font-family: gilli;
+  margin-top: 36.5px;
+}
+.vacay1 .bookNow {
+  width: 121px;
+  height: 40px;
+  background-color: #79ADDC;
+  border: none;
+  align-items: center;
+  display: inline-block;
+  box-shadow: none;
+  color: white;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  margin-top: 50px;
+  border-radius: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+}
+
+@media all and (max-width: 1030px) {
+  .vacay1 {
+    width: 100%;
+  }
+  .vacay1 .is-hero1 {
+    width: 100%;
+  }
+  .vacay1 .is-hero1 .is-sub-title {
+    margin-left: 200px;
+    margin-top: 300px;
+    width: 500px;
+    height: 100px;
+  }
+  .vacay1 .imagesAUS {
+    flex-direction: column;
+  }
+  .vacay1 .imagesAUS .image1A {
+    margin: 0 auto;
+    margin-top: 15px;
+  }
+  .vacay1 .imagesAUS .image2U {
+    margin: 0 auto;
+    margin-top: 15px;
+  }
+  .vacay1 .imagesAUS .image3S {
+    margin: 0 auto;
+    margin-top: 15px;
+  }
+  .vacay1 .days {
+    margin: 10px;
+  }
+  .vacay1 .days .day1 .pg {
+    margin-left: 10px;
+  }
+  .vacay1 .days .day2 .pg {
+    margin-left: 10px;
+  }
+  .vacay1 .days .day3 .pg {
+    margin-left: 10px;
+  }
+  .tours-foot-1 footer {
+    margin-top: 100px;
+    width: 100%;
+  }
+  .tours-foot-1 footer .end {
+    position: relative;
+  }
+  .tours-foot-1 footer .end .logo {
+    margin-left: 50px;
+    position: absolute;
+  }
+  .tours-foot-1 footer .end .copywright {
+    right: 250px;
+    width: 200px;
+    margin-bottom: 10px;
+    position: absolute;
+  }
+  .tours-foot-1 footer .end .icons {
+    position: absolute;
+  }
+}
+.vacay3 {
+  width: 980px;
+  min-height: 1700px;
+  margin: 0 auto;
+}
+.vacay3 .is-hero1 {
+  width: 981px;
+  height: 413px;
+  background-color: palegreen;
+  margin-top: 48.5px;
+  display: flex;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/NZ1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+}
+.vacay3 .is-hero1 .is-title {
+  font-family: sole;
+  color: white;
+  font-weight: 100;
+  margin-top: 18px;
+  font-size: 60px;
+  letter-spacing: 5px;
+  margin-left: 10px;
+  width: 1007px;
+  height: 106px;
+}
+.vacay3 .is-hero1 .is-sub-title {
+  font-family: sole;
+  width: 550px;
+  height: 40px;
+  color: white;
+  font-weight: 100;
+  margin-top: 18px;
+  font-size: 30px;
+  margin-top: 378px;
+}
+.vacay3 .imagesAUS {
+  display: flex;
+}
+.vacay3 .imagesAUS .image1A {
+  width: 298px;
+  height: 347px;
+  background-color: orange;
+  margin-top: 40px;
+  background-image: url(../images/nz-tour-01.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.vacay3 .imagesAUS .image2U {
+  width: 298px;
+  height: 347px;
+  background-color: orange;
+  margin-top: 40px;
+  background-image: url(../images/nz-tour-02.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 42px;
+}
+.vacay3 .imagesAUS .image3S {
+  width: 298px;
+  height: 347px;
+  background-color: orange;
+  margin-top: 40px;
+  background-image: url(../images/nz-tour-03.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 42px;
+}
+.vacay3 .days .day1 .head {
+  font-family: sole;
+  font-size: 60px;
+  margin-top: 19px;
+}
+.vacay3 .days .day1 .head .line {
+  width: 171px;
+  height: 1px;
+  background-color: black;
+}
+.vacay3 .days .day1 .pg {
+  font-family: gilli;
+  margin-top: 36.5px;
+}
+.vacay3 .days .day2 .head {
+  font-family: sole;
+  font-size: 60px;
+  margin-top: 70px;
+}
+.vacay3 .days .day2 .head .line {
+  width: 171px;
+  height: 1px;
+  background-color: black;
+}
+.vacay3 .days .day2 .pg {
+  font-family: gilli;
+  margin-top: 36.5px;
+}
+.vacay3 .days .day3 .head {
+  font-family: sole;
+  font-size: 60px;
+  margin-top: 70px;
+}
+.vacay3 .days .day3 .head .line {
+  width: 171px;
+  height: 1px;
+  background-color: black;
+}
+.vacay3 .days .day3 .pg {
+  font-family: gilli;
+  margin-top: 36.5px;
+}
+.vacay3 .bookNow {
+  width: 121px;
+  height: 40px;
+  background-color: #79ADDC;
+  border: none;
+  align-items: center;
+  display: inline-block;
+  box-shadow: none;
+  color: white;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  margin-top: 50px;
+  border-radius: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+}
+
+@media all and (max-width: 1030px) {
+  .vacay3 {
+    width: 100%;
+  }
+  .vacay3 .is-hero1 {
+    width: 100%;
+  }
+  .vacay3 .is-hero1 .is-sub-title {
+    margin-left: 200px;
+    margin-top: 300px;
+    width: 500px;
+    height: 100px;
+  }
+  .vacay3 .imagesAUS {
+    flex-direction: column;
+  }
+  .vacay3 .imagesAUS .image1A {
+    margin: 0 auto;
+    margin-top: 15px;
+  }
+  .vacay3 .imagesAUS .image2U {
+    margin: 0 auto;
+    margin-top: 15px;
+  }
+  .vacay3 .imagesAUS .image3S {
+    margin: 0 auto;
+    margin-top: 15px;
+  }
+  .vacay3 .days {
+    margin: 10px;
+  }
+  .vacay3 .days .day1 .pg {
+    margin-left: 10px;
+  }
+  .vacay3 .days .day2 .pg {
+    margin-left: 10px;
+  }
+  .vacay3 .days .day3 .pg {
+    margin-left: 10px;
+  }
+  .tours-foot-1 footer {
+    margin-top: 100px;
+    width: 100%;
+  }
+  .tours-foot-1 footer .end {
+    position: relative;
+  }
+  .tours-foot-1 footer .end .logo {
+    margin-left: 50px;
+    position: absolute;
+  }
+  .tours-foot-1 footer .end .copywright {
+    right: 250px;
+    width: 200px;
+    margin-bottom: 10px;
+    position: absolute;
+  }
+  .tours-foot-1 footer .end .icons {
+    position: absolute;
+  }
+}
+.vacay4 {
+  width: 980px;
+  min-height: 1700px;
+  margin: 0 auto;
+}
+.vacay4 .is-hero1 {
+  width: 981px;
+  height: 413px;
+  background-color: palegreen;
+  margin-top: 48.5px;
+  display: flex;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/FR.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+}
+.vacay4 .is-hero1 .is-title {
+  font-family: sole;
+  color: white;
+  font-weight: 100;
+  margin-top: 18px;
+  font-size: 60px;
+  letter-spacing: 5px;
+  margin-left: 10px;
+  width: 1007px;
+  height: 106px;
+}
+.vacay4 .is-hero1 .is-sub-title {
+  font-family: sole;
+  width: 550px;
+  height: 40px;
+  color: white;
+  font-weight: 100;
+  margin-top: 18px;
+  font-size: 30px;
+  margin-top: 378px;
+}
+.vacay4 .imagesAUS {
+  display: flex;
+}
+.vacay4 .imagesAUS .image1A {
+  width: 298px;
+  height: 347px;
+  background-color: orange;
+  margin-top: 40px;
+  background-image: url(../images/france-tour-01.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.vacay4 .imagesAUS .image2U {
+  width: 298px;
+  height: 347px;
+  background-color: orange;
+  margin-top: 40px;
+  background-image: url(../images/france-tour-02.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 42px;
+}
+.vacay4 .imagesAUS .image3S {
+  width: 298px;
+  height: 347px;
+  background-color: orange;
+  margin-top: 40px;
+  background-image: url(../images/france-tour-03.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 42px;
+}
+.vacay4 .days .day1 .head {
+  font-family: sole;
+  font-size: 60px;
+  margin-top: 19px;
+}
+.vacay4 .days .day1 .head .line {
+  width: 171px;
+  height: 1px;
+  background-color: black;
+}
+.vacay4 .days .day1 .pg {
+  font-family: gilli;
+  margin-top: 36.5px;
+}
+.vacay4 .days .day2 .head {
+  font-family: sole;
+  font-size: 60px;
+  margin-top: 70px;
+}
+.vacay4 .days .day2 .head .line {
+  width: 171px;
+  height: 1px;
+  background-color: black;
+}
+.vacay4 .days .day2 .pg {
+  font-family: gilli;
+  margin-top: 36.5px;
+}
+.vacay4 .days .day3 .head {
+  font-family: sole;
+  font-size: 60px;
+  margin-top: 70px;
+}
+.vacay4 .days .day3 .head .line {
+  width: 171px;
+  height: 1px;
+  background-color: black;
+}
+.vacay4 .days .day3 .pg {
+  font-family: gilli;
+  margin-top: 36.5px;
+}
+.vacay4 .bookNow {
+  width: 121px;
+  height: 40px;
+  background-color: #79ADDC;
+  border: none;
+  align-items: center;
+  display: inline-block;
+  box-shadow: none;
+  color: white;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  margin-top: 50px;
+  border-radius: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+}
+
+@media all and (max-width: 1030px) {
+  .vacay4 {
+    width: 100%;
+  }
+  .vacay4 .is-hero1 {
+    width: 100%;
+  }
+  .vacay4 .is-hero1 .is-sub-title {
+    margin-left: 200px;
+    margin-top: 300px;
+    width: 500px;
+    height: 100px;
+  }
+  .vacay4 .imagesAUS {
+    flex-direction: column;
+  }
+  .vacay4 .imagesAUS .image1A {
+    margin: 0 auto;
+    margin-top: 15px;
+  }
+  .vacay4 .imagesAUS .image2U {
+    margin: 0 auto;
+    margin-top: 15px;
+  }
+  .vacay4 .imagesAUS .image3S {
+    margin: 0 auto;
+    margin-top: 15px;
+  }
+  .vacay4 .days {
+    margin: 10px;
+  }
+  .vacay4 .days .day1 .pg {
+    margin-left: 10px;
+  }
+  .vacay4 .days .day2 .pg {
+    margin-left: 10px;
+  }
+  .vacay4 .days .day3 .pg {
+    margin-left: 10px;
+  }
+  .tours-foot-1 footer {
+    margin-top: 100px;
+    width: 100%;
+  }
+  .tours-foot-1 footer .end {
+    position: relative;
+  }
+  .tours-foot-1 footer .end .logo {
+    margin-left: 50px;
+    position: absolute;
+  }
+  .tours-foot-1 footer .end .copywright {
+    right: 250px;
+    width: 200px;
+    margin-bottom: 10px;
+    position: absolute;
+  }
+  .tours-foot-1 footer .end .icons {
+    position: absolute;
+  }
+}
+.vacay5 {
+  width: 980px;
+  min-height: 1700px;
+  margin: 0 auto;
+}
+.vacay5 .is-hero1 {
+  width: 981px;
+  height: 413px;
+  background-color: palegreen;
+  margin-top: 48.5px;
+  display: flex;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/Egyptq.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+}
+.vacay5 .is-hero1 .is-title {
+  font-family: sole;
+  color: white;
+  font-weight: 100;
+  margin-top: 18px;
+  font-size: 60px;
+  letter-spacing: 5px;
+  margin-left: 10px;
+  width: 1007px;
+  height: 106px;
+}
+.vacay5 .is-hero1 .is-sub-title {
+  font-family: sole;
+  width: 550px;
+  height: 40px;
+  color: white;
+  font-weight: 100;
+  margin-top: 18px;
+  font-size: 30px;
+  margin-top: 378px;
+}
+.vacay5 .imagesAUS {
+  display: flex;
+}
+.vacay5 .imagesAUS .image1A {
+  width: 298px;
+  height: 347px;
+  background-color: orange;
+  margin-top: 40px;
+  background-image: url(../images/eg1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.vacay5 .imagesAUS .image2U {
+  width: 298px;
+  height: 347px;
+  background-color: orange;
+  margin-top: 40px;
+  background-image: url(../images/egypt-tour-02.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 42px;
+}
+.vacay5 .imagesAUS .image3S {
+  width: 298px;
+  height: 347px;
+  background-color: orange;
+  margin-top: 40px;
+  background-image: url(../images/egypt-tour-03.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 42px;
+}
+.vacay5 .days .day1 .head {
+  font-family: sole;
+  font-size: 60px;
+  margin-top: 19px;
+}
+.vacay5 .days .day1 .head .line {
+  width: 171px;
+  height: 1px;
+  background-color: black;
+}
+.vacay5 .days .day1 .pg {
+  font-family: gilli;
+  margin-top: 36.5px;
+}
+.vacay5 .days .day2 .head {
+  font-family: sole;
+  font-size: 60px;
+  margin-top: 70px;
+}
+.vacay5 .days .day2 .head .line {
+  width: 171px;
+  height: 1px;
+  background-color: black;
+}
+.vacay5 .days .day2 .pg {
+  font-family: gilli;
+  margin-top: 36.5px;
+}
+.vacay5 .days .day3 .head {
+  font-family: sole;
+  font-size: 60px;
+  margin-top: 70px;
+}
+.vacay5 .days .day3 .head .line {
+  width: 171px;
+  height: 1px;
+  background-color: black;
+}
+.vacay5 .days .day3 .pg {
+  font-family: gilli;
+  margin-top: 36.5px;
+}
+.vacay5 .bookNow {
+  width: 121px;
+  height: 40px;
+  background-color: #79ADDC;
+  border: none;
+  align-items: center;
+  display: inline-block;
+  box-shadow: none;
+  color: white;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  margin-top: 50px;
+  border-radius: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+}
+
+@media all and (max-width: 1030px) {
+  .vacay5 {
+    width: 100%;
+  }
+  .vacay5 .is-hero1 {
+    width: 100%;
+  }
+  .vacay5 .is-hero1 .is-sub-title {
+    margin-left: 200px;
+    margin-top: 300px;
+    width: 500px;
+    height: 100px;
+  }
+  .vacay5 .imagesAUS {
+    flex-direction: column;
+  }
+  .vacay5 .imagesAUS .image1A {
+    margin: 0 auto;
+    margin-top: 15px;
+  }
+  .vacay5 .imagesAUS .image2U {
+    margin: 0 auto;
+    margin-top: 15px;
+  }
+  .vacay5 .imagesAUS .image3S {
+    margin: 0 auto;
+    margin-top: 15px;
+  }
+  .vacay5 .days {
+    margin: 10px;
+  }
+  .vacay5 .days .day1 .pg {
+    margin-left: 10px;
+  }
+  .vacay5 .days .day2 .pg {
+    margin-left: 10px;
+  }
+  .vacay5 .days .day3 .pg {
+    margin-left: 10px;
+  }
+  .tours-foot-1 footer {
+    margin-top: 100px;
+    width: 100%;
+  }
+  .tours-foot-1 footer .end {
+    position: relative;
+  }
+  .tours-foot-1 footer .end .logo {
+    margin-left: 50px;
+    position: absolute;
+  }
+  .tours-foot-1 footer .end .copywright {
+    right: 250px;
+    width: 200px;
+    margin-bottom: 10px;
+    position: absolute;
+  }
+  .tours-foot-1 footer .end .icons {
+    position: absolute;
+  }
+}
+.vacay6 {
+  width: 980px;
+  min-height: 1700px;
+  margin: 0 auto;
+}
+.vacay6 .is-hero1 {
+  width: 981px;
+  height: 413px;
+  background-color: palegreen;
+  margin-top: 48.5px;
+  display: flex;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/Japanz.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+}
+.vacay6 .is-hero1 .is-title {
+  font-family: sole;
+  color: white;
+  font-weight: 100;
+  margin-top: 18px;
+  font-size: 60px;
+  letter-spacing: 5px;
+  margin-left: 10px;
+  width: 1007px;
+  height: 106px;
+}
+.vacay6 .is-hero1 .is-sub-title {
+  font-family: sole;
+  width: 550px;
+  height: 40px;
+  color: white;
+  font-weight: 100;
+  margin-top: 18px;
+  font-size: 30px;
+  margin-top: 378px;
+}
+.vacay6 .imagesAUS {
+  display: flex;
+}
+.vacay6 .imagesAUS .image1A {
+  width: 298px;
+  height: 347px;
+  background-color: orange;
+  margin-top: 40px;
+  background-image: url(../images/japan-tour-01.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.vacay6 .imagesAUS .image2U {
+  width: 298px;
+  height: 347px;
+  background-color: orange;
+  margin-top: 40px;
+  background-image: url(../images/japan-tour-02.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 42px;
+}
+.vacay6 .imagesAUS .image3S {
+  width: 298px;
+  height: 347px;
+  background-color: orange;
+  margin-top: 40px;
+  background-image: url(../images/japan-tour-03.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 42px;
+}
+.vacay6 .days .day1 .head {
+  font-family: sole;
+  font-size: 60px;
+  margin-top: 19px;
+}
+.vacay6 .days .day1 .head .line {
+  width: 171px;
+  height: 1px;
+  background-color: black;
+}
+.vacay6 .days .day1 .pg {
+  font-family: gilli;
+  margin-top: 36.5px;
+}
+.vacay6 .days .day2 .head {
+  font-family: sole;
+  font-size: 60px;
+  margin-top: 70px;
+}
+.vacay6 .days .day2 .head .line {
+  width: 171px;
+  height: 1px;
+  background-color: black;
+}
+.vacay6 .days .day2 .pg {
+  font-family: gilli;
+  margin-top: 36.5px;
+}
+.vacay6 .days .day3 .head {
+  font-family: sole;
+  font-size: 60px;
+  margin-top: 70px;
+}
+.vacay6 .days .day3 .head .line {
+  width: 171px;
+  height: 1px;
+  background-color: black;
+}
+.vacay6 .days .day3 .pg {
+  font-family: gilli;
+  margin-top: 36.5px;
+}
+.vacay6 .bookNow {
+  width: 121px;
+  height: 40px;
+  background-color: #79ADDC;
+  border: none;
+  align-items: center;
+  display: inline-block;
+  box-shadow: none;
+  color: white;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  margin-top: 50px;
+  border-radius: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+}
+
+@media all and (max-width: 1030px) {
+  .vacay6 {
+    width: 100%;
+  }
+  .vacay6 .is-hero1 {
+    width: 100%;
+  }
+  .vacay6 .is-hero1 .is-sub-title {
+    margin-left: 200px;
+    margin-top: 300px;
+    width: 500px;
+    height: 100px;
+  }
+  .vacay6 .imagesAUS {
+    flex-direction: column;
+  }
+  .vacay6 .imagesAUS .image1A {
+    margin: 0 auto;
+    margin-top: 15px;
+  }
+  .vacay6 .imagesAUS .image2U {
+    margin: 0 auto;
+    margin-top: 15px;
+  }
+  .vacay6 .imagesAUS .image3S {
+    margin: 0 auto;
+    margin-top: 15px;
+  }
+  .vacay6 .days {
+    margin: 10px;
+  }
+  .vacay6 .days .day1 .pg {
+    margin-left: 10px;
+  }
+  .vacay6 .days .day2 .pg {
+    margin-left: 10px;
+  }
+  .vacay6 .days .day3 .pg {
+    margin-left: 10px;
+  }
+  .tours-foot-1 footer {
+    margin-top: 100px;
+    width: 100%;
+  }
+  .tours-foot-1 footer .end {
+    position: relative;
+  }
+  .tours-foot-1 footer .end .logo {
+    margin-left: 50px;
+    position: absolute;
+  }
+  .tours-foot-1 footer .end .copywright {
+    right: 250px;
+    width: 200px;
+    margin-bottom: 10px;
+    position: absolute;
+  }
+  .tours-foot-1 footer .end .icons {
+    position: absolute;
+  }
+}
+.vacay7 {
+  width: 980px;
+  min-height: 1700px;
+  margin: 0 auto;
+}
+.vacay7 .is-hero1 {
+  width: 981px;
+  height: 413px;
+  background-color: palegreen;
+  margin-top: 48.5px;
+  display: flex;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/canada1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+}
+.vacay7 .is-hero1 .is-title {
+  font-family: sole;
+  color: white;
+  font-weight: 100;
+  margin-top: 18px;
+  font-size: 60px;
+  letter-spacing: 5px;
+  margin-left: 10px;
+  width: 1007px;
+  height: 106px;
+}
+.vacay7 .is-hero1 .is-sub-title {
+  font-family: sole;
+  width: 550px;
+  height: 40px;
+  color: white;
+  font-weight: 100;
+  margin-top: 18px;
+  font-size: 30px;
+  margin-top: 378px;
+}
+.vacay7 .imagesAUS {
+  display: flex;
+}
+.vacay7 .imagesAUS .image1A {
+  width: 298px;
+  height: 347px;
+  background-color: orange;
+  margin-top: 40px;
+  background-image: url(../images/canada-tour-01.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.vacay7 .imagesAUS .image2U {
+  width: 298px;
+  height: 347px;
+  background-color: orange;
+  margin-top: 40px;
+  background-image: url(../images/canada-tour-02.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 42px;
+}
+.vacay7 .imagesAUS .image3S {
+  width: 298px;
+  height: 347px;
+  background-color: orange;
+  margin-top: 40px;
+  background-image: url(../images/canada-tour-03.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 42px;
+}
+.vacay7 .days .day1 .head {
+  font-family: sole;
+  font-size: 60px;
+  margin-top: 19px;
+}
+.vacay7 .days .day1 .head .line {
+  width: 171px;
+  height: 1px;
+  background-color: black;
+}
+.vacay7 .days .day1 .pg {
+  font-family: gilli;
+  margin-top: 36.5px;
+}
+.vacay7 .days .day2 .head {
+  font-family: sole;
+  font-size: 60px;
+  margin-top: 70px;
+}
+.vacay7 .days .day2 .head .line {
+  width: 171px;
+  height: 1px;
+  background-color: black;
+}
+.vacay7 .days .day2 .pg {
+  font-family: gilli;
+  margin-top: 36.5px;
+}
+.vacay7 .days .day3 .head {
+  font-family: sole;
+  font-size: 60px;
+  margin-top: 70px;
+}
+.vacay7 .days .day3 .head .line {
+  width: 171px;
+  height: 1px;
+  background-color: black;
+}
+.vacay7 .days .day3 .pg {
+  font-family: gilli;
+  margin-top: 36.5px;
+}
+.vacay7 .bookNow {
+  width: 121px;
+  height: 40px;
+  background-color: #79ADDC;
+  border: none;
+  align-items: center;
+  display: inline-block;
+  box-shadow: none;
+  color: white;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  margin-top: 50px;
+  border-radius: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+}
+
+@media all and (max-width: 1030px) {
+  .vacay7 {
+    width: 100%;
+  }
+  .vacay7 .is-hero1 {
+    width: 100%;
+  }
+  .vacay7 .is-hero1 .is-sub-title {
+    margin-left: 200px;
+    margin-top: 300px;
+    width: 500px;
+    height: 100px;
+  }
+  .vacay7 .imagesAUS {
+    flex-direction: column;
+  }
+  .vacay7 .imagesAUS .image1A {
+    margin: 0 auto;
+    margin-top: 15px;
+  }
+  .vacay7 .imagesAUS .image2U {
+    margin: 0 auto;
+    margin-top: 15px;
+  }
+  .vacay7 .imagesAUS .image3S {
+    margin: 0 auto;
+    margin-top: 15px;
+  }
+  .vacay7 .days {
+    margin: 10px;
+  }
+  .vacay7 .days .day1 .pg {
+    margin-left: 10px;
+  }
+  .vacay7 .days .day2 .pg {
+    margin-left: 10px;
+  }
+  .vacay7 .days .day3 .pg {
+    margin-left: 10px;
+  }
+  .tours-foot-1 footer {
+    margin-top: 100px;
+    width: 100%;
+  }
+  .tours-foot-1 footer .end {
+    position: relative;
+  }
+  .tours-foot-1 footer .end .logo {
+    margin-left: 50px;
+    position: absolute;
+  }
+  .tours-foot-1 footer .end .copywright {
+    right: 250px;
+    width: 200px;
+    margin-bottom: 10px;
+    position: absolute;
+  }
+  .tours-foot-1 footer .end .icons {
+    position: absolute;
+  }
+}
+.vacay8 {
+  width: 980px;
+  min-height: 1700px;
+  margin: 0 auto;
+}
+.vacay8 .is-hero1 {
+  width: 981px;
+  height: 413px;
+  background-color: palegreen;
+  margin-top: 48.5px;
+  display: flex;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/UAE1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+}
+.vacay8 .is-hero1 .is-title {
+  font-family: sole;
+  color: white;
+  font-weight: 100;
+  margin-top: 18px;
+  font-size: 60px;
+  letter-spacing: 5px;
+  margin-left: 10px;
+  width: 1007px;
+  height: 106px;
+}
+.vacay8 .is-hero1 .is-sub-title {
+  font-family: sole;
+  width: 550px;
+  height: 40px;
+  color: white;
+  font-weight: 100;
+  margin-top: 18px;
+  font-size: 30px;
+  margin-top: 378px;
+}
+.vacay8 .imagesAUS {
+  display: flex;
+}
+.vacay8 .imagesAUS .image1A {
+  width: 298px;
+  height: 347px;
+  background-color: orange;
+  margin-top: 40px;
+  background-image: url(../images/uae-tour-01.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.vacay8 .imagesAUS .image2U {
+  width: 298px;
+  height: 347px;
+  background-color: orange;
+  margin-top: 40px;
+  background-image: url(../images/uae2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 42px;
+}
+.vacay8 .imagesAUS .image3S {
+  width: 298px;
+  height: 347px;
+  background-color: orange;
+  margin-top: 40px;
+  background-image: url(../images/uae-tour-03.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 42px;
+}
+.vacay8 .days .day1 .head {
+  font-family: sole;
+  font-size: 60px;
+  margin-top: 19px;
+}
+.vacay8 .days .day1 .head .line {
+  width: 171px;
+  height: 1px;
+  background-color: black;
+}
+.vacay8 .days .day1 .pg {
+  font-family: gilli;
+  margin-top: 36.5px;
+}
+.vacay8 .days .day2 .head {
+  font-family: sole;
+  font-size: 60px;
+  margin-top: 70px;
+}
+.vacay8 .days .day2 .head .line {
+  width: 171px;
+  height: 1px;
+  background-color: black;
+}
+.vacay8 .days .day2 .pg {
+  font-family: gilli;
+  margin-top: 36.5px;
+}
+.vacay8 .days .day3 .head {
+  font-family: sole;
+  font-size: 60px;
+  margin-top: 70px;
+}
+.vacay8 .days .day3 .head .line {
+  width: 171px;
+  height: 1px;
+  background-color: black;
+}
+.vacay8 .days .day3 .pg {
+  font-family: gilli;
+  margin-top: 36.5px;
+}
+.vacay8 .bookNow {
+  width: 121px;
+  height: 40px;
+  background-color: #79ADDC;
+  border: none;
+  align-items: center;
+  display: inline-block;
+  box-shadow: none;
+  color: white;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  margin-top: 50px;
+  border-radius: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+}
+
+@media all and (max-width: 1030px) {
+  .vacay8 {
+    width: 100%;
+  }
+  .vacay8 .is-hero1 {
+    width: 100%;
+  }
+  .vacay8 .is-hero1 .is-sub-title {
+    margin-left: 200px;
+    margin-top: 300px;
+    width: 500px;
+    height: 100px;
+  }
+  .vacay8 .imagesAUS {
+    flex-direction: column;
+  }
+  .vacay8 .imagesAUS .image1A {
+    margin: 0 auto;
+    margin-top: 15px;
+  }
+  .vacay8 .imagesAUS .image2U {
+    margin: 0 auto;
+    margin-top: 15px;
+  }
+  .vacay8 .imagesAUS .image3S {
+    margin: 0 auto;
+    margin-top: 15px;
+  }
+  .vacay8 .days {
+    margin: 10px;
+  }
+  .vacay8 .days .day1 .pg {
+    margin-left: 10px;
+  }
+  .vacay8 .days .day2 .pg {
+    margin-left: 10px;
+  }
+  .vacay8 .days .day3 .pg {
+    margin-left: 10px;
+  }
+  .tours-foot-1 footer {
+    margin-top: 100px;
+    width: 100%;
+  }
+  .tours-foot-1 footer .end {
+    position: relative;
+  }
+  .tours-foot-1 footer .end .logo {
+    margin-left: 50px;
+    position: absolute;
+  }
+  .tours-foot-1 footer .end .copywright {
+    right: 250px;
+    width: 200px;
+    margin-bottom: 10px;
+    position: absolute;
+  }
+  .tours-foot-1 footer .end .icons {
+    position: absolute;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
