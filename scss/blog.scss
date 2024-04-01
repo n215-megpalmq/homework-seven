@@ -110,7 +110,7 @@
                 font-size: 22px;
                     
                 .date {
-                    font-weight: 900;
+                    font-weight: bolder;
                     font-family: gilli;
                     margin-left: 20px;
                     color: white;
@@ -230,7 +230,7 @@
             }
         }
     }
-@media all and (max-width:878px){
+@media all and (max-width:1000px){
         .navb{
             .logo{
     
@@ -246,9 +246,10 @@
     
         }
         .blog {
-        width: 100%;
+            width: 100%;
             .top-box3{
                 margin-left: 10px;
+                width: 100%;
                 .blogtitle{
                 }
                 .under-line4{
@@ -263,7 +264,8 @@
                         }
                     }
                     .book{
-                    width: 100%;
+                        width: 100%;
+                    
                     }
                     .blog1{
                         .up{
@@ -284,7 +286,7 @@
     
                         }
                         .book{
-                        width: 100%;
+                            width: 100%;
                         }
                         .blog1{
     

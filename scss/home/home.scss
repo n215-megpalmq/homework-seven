@@ -428,18 +428,16 @@
         }
         
     }
-    #message-box{
+    #message-box textarea{
         width: 818px;
         height: 192px;
         border: 2px solid ;
         border-color: $site-blue;
         margin-top: 20px;
+        font-family: gilli;
     }
     
-    textarea{
-        font-family: prox;
-        font-size: 18px;
-    }
+    
     button{
         background-color: #79ADDC;
         width: 813px;
