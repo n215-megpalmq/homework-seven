@@ -3301,7 +3301,7 @@ footer .end .bottom .icons .Tw {
   font-family: sole;
   font-size: 30px;
   letter-spacing: 3px;
-  font-weight: normal;
+  font-weight: bold;
 }
 .special .top-box2 .under-line {
   width: 199px;
@@ -3482,6 +3482,7 @@ footer .end .bottom .icons .Tw {
   font-size: 30px;
   letter-spacing: 3px;
   font-weight: normal;
+  font-weight: bold;
 }
 .blog .top-box3 .under-line4 {
   width: 106px;
@@ -3626,6 +3627,180 @@ footer .end .bottom .icons .Tw {
   }
   .blog .top-box3 .july .sq .book {
     width: 100%;
+  }
+}
+.navb .logo {
+  border-color: black;
+}
+.navb .logo h4 {
+  color: black;
+}
+.navb .links a {
+  color: black;
+}
+
+.navbar {
+  background-color: black;
+  height: 3px;
+}
+
+.contact {
+  min-height: 900px;
+  width: 980px;
+  margin: 0 auto;
+  display: flex;
+}
+.contact .top-box3 {
+  width: 980px;
+  height: 300px;
+  margin-top: 55.5px;
+}
+.contact .top-box3 .contitle {
+  font-family: sole;
+  font-size: 30px;
+  letter-spacing: 3px;
+  font-weight: normal;
+  flex-direction: column;
+  font-weight: bold;
+}
+.contact .top-box3 .under-line4 {
+  width: 156px;
+  height: 1px;
+  background-color: black;
+}
+.contact .top-box3 .fl {
+  display: flex;
+}
+.contact .top-box3 .fl .map {
+  background-image: url(../images/map.png);
+  width: 400px;
+  height: 442px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 50.5px;
+}
+.contact .top-box3 .fl .contact-form {
+  width: 600px;
+  height: 530px;
+  margin-top: 50px;
+}
+.contact .top-box3 .fl .contact-form .YN input {
+  width: 529px;
+  height: 60px;
+  background-color: #F5F5F5;
+  border: none;
+  font-family: gilli;
+  margin-left: 58px;
+  padding-left: 20px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.contact .top-box3 .fl .contact-form .EA input {
+  width: 529px;
+  height: 60px;
+  background-color: #F5F5F5;
+  border: none;
+  font-family: gilli;
+  margin-left: 58px;
+  padding-left: 20px;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 21px;
+}
+.contact .top-box3 .fl .contact-form .Comp input {
+  width: 529px;
+  height: 60px;
+  background-color: #F5F5F5;
+  border: none;
+  font-family: gilli;
+  margin-left: 58px;
+  padding-left: 20px;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 21px;
+}
+.contact .top-box3 .fl .contact-form .Mess textarea {
+  width: 529px;
+  height: 199px;
+  background-color: #F5F5F5;
+  border: none;
+  font-family: gilli;
+  margin-left: 58px;
+  padding-left: 20px;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 21px;
+  text-align: left;
+  padding-top: 20px;
+}
+.contact .top-box3 .fl .contact-form .SM button {
+  width: 168px;
+  height: 60px;
+  background-color: #79ADDC;
+  border: none;
+  font-family: gilli;
+  color: white;
+  font-size: 16px;
+  letter-spacing: 2px;
+  margin-left: 58px;
+  margin-top: 20px;
+}
+.contact .top-box3 .addy p {
+  margin: -40px auto 0 auto;
+  font-family: gilli;
+  width: 300px;
+  height: 161px;
+  font-size: 18px;
+  letter-spacing: 2px;
+  margin-top: -40;
+  position: absolute;
+}
+
+@media all and (max-width: 1082px) {
+  .contact {
+    width: 100%;
+    margin-left: 30px;
+  }
+  .contact .top-box3 .fl .contact-form .YN input {
+    width: 70%;
+  }
+  .contact .top-box3 .fl .contact-form .EA input {
+    width: 70%;
+  }
+  .contact .top-box3 .fl .contact-form .Comp input {
+    width: 70%;
+  }
+  .contact .top-box3 .fl .contact-form .Mess textarea {
+    width: 70%;
+  }
+}
+@media all and (max-width: 912px) {
+  .contact {
+    width: 100%;
+    margin-left: 30px;
+    height: 1500px;
+  }
+  .contact .top-box3 .fl {
+    flex-direction: column;
+  }
+  .contact .top-box3 .fl .contact-form {
+    margin-left: -55px;
+  }
+  .contact .top-box3 .fl .contact-form .YN input {
+    width: 70%;
+  }
+  .contact .top-box3 .fl .contact-form .EA input {
+    width: 70%;
+  }
+  .contact .top-box3 .fl .contact-form .Comp input {
+    width: 70%;
+  }
+  .contact .top-box3 .fl .contact-form .Mess textarea {
+    width: 70%;
+  }
+  .contact .top-box3 .addy p {
+    margin-top: 100px;
   }
 }
 

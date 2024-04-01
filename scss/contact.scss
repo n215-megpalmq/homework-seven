@@ -1,0 +1,252 @@
+.navb{
+    .logo{
+        border-color: black;
+        h4{
+        color:black;
+        }
+    }
+    .links a{
+        color: black;
+    }
+}
+.navbar{
+    background-color: black;
+    height: 3px;
+}
+.contact {
+    min-height: 900px;
+    width: $content-width;
+    margin: 0 auto;
+    display: flex;
+    .top-box3{
+        width: $content-width;
+        height: 300px;
+        margin-top: 55.5px;
+
+        
+        .contitle{
+            font-family: sole;
+            font-size: 30px;
+            letter-spacing: 3px;
+            font-weight: normal;
+            flex-direction: column;
+            font-weight: bold;
+        }
+        .under-line4{
+            width: 156px;
+            height:1px;
+            background-color: black;
+            
+        }
+        .fl {
+            display: flex;
+        .map{
+            background-image: url(../images/map.png);
+            width: 400px;
+            height: 442px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin-top: 50.5px;
+            
+
+        }
+        
+        .contact-form {
+        width: 600px;
+        height: 530px; 
+        margin-top: 50px;
+
+        .YN input{
+            width: 529px;
+            height:60px;
+            background-color: #F5F5F5;
+            border: none;
+            font-family:gilli ;
+            margin-left: 58px;
+            padding-left: 20px;
+            font-size: 15px;
+            font-weight: bold;
+        }
+        .EA input{
+            width: 529px;
+            height:60px;
+            background-color: #F5F5F5;
+            border: none;
+            font-family:gilli ;
+            margin-left: 58px;
+            padding-left: 20px;
+            font-size: 15px;
+            font-weight: bold;
+            margin-top: 21px;
+        }
+        .Comp input{
+            width: 529px;
+            height:60px;
+            background-color: #F5F5F5;
+            border: none;
+            font-family:gilli ;
+            margin-left: 58px;
+            padding-left: 20px;
+            font-size: 15px;
+            font-weight: bold;
+            margin-top: 21px;
+        }
+        .Mess textarea{
+            width: 529px;
+            height:199px;
+            background-color: #F5F5F5;
+            border: none;
+            font-family:gilli ;
+            margin-left: 58px;
+            padding-left: 20px;
+            font-size: 15px;
+            font-weight: bold;
+            margin-top: 21px;
+            text-align: left;
+            padding-top: 20px;
+        }
+        .SM button{
+            width: 168px;
+            height: 60px;
+            background-color: #79ADDC;
+            border: none;
+            font-family: gilli;
+            color: white;
+            font-size: 16px;
+            letter-spacing: 2px;
+            margin-left: 58px;
+            margin-top: 20px;
+            
+        }
+        }
+        }
+        .addy p{
+                margin: -40px auto 0 auto;
+                font-family: gilli;
+                width: 300px;
+                height: 161px;
+                font-size: 18px;
+                letter-spacing: 2px;
+                margin-top: -40;
+                position: absolute;
+        }
+    }
+}
+@media all and (max-width:1082px){
+    .navb{
+        .logo{
+;
+            h4{
+
+            }
+        }
+        .links a{
+
+        }
+    }
+    .navbar{
+
+    }
+    .contact {
+        width: 100%;
+        margin-left: 30px;
+        .top-box3{
+            
+            .contitle{
+
+            }
+            .under-line4{
+                
+            }
+            .fl {
+                
+            .map{
+    
+            }
+            
+            .contact-form {
+    
+            .YN input{
+                width: 70%;
+            }
+            .EA input{
+                width: 70%;
+            }
+
+            .Comp input{
+                width: 70%;
+            }
+            .Mess textarea{
+                width: 70%;
+            }
+            .SM button{
+                
+            }
+            }
+            }
+            .addy p{
+                    
+            }
+        }
+    }
+}
+@media all and (max-width:912px){
+    .navb{
+        .logo{
+
+            h4{
+
+            }
+        }
+        .links a{
+
+        }
+    }
+    .navbar{
+
+    }
+    .contact {
+        width: 100%;
+        margin-left: 30px;
+        height:1500px;
+        .top-box3{
+            
+            .contitle{
+
+            }
+            .under-line4{
+                
+            }
+            .fl {
+                flex-direction: column;
+            .map{
+    
+            }
+            
+            .contact-form {
+                margin-left: -55px;
+            .YN input{
+                width: 70%;
+            }
+            .EA input{
+                width: 70%;
+            }
+
+            .Comp input{
+                width: 70%;
+            }
+            .Mess textarea{
+                width: 70%;
+            }
+            .SM button{
+                
+            }
+            }
+            }
+            .addy p{
+            margin-top: 100px; 
+            }
+        }
+    }
+}
